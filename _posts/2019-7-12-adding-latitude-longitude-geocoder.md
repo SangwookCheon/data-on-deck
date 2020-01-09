@@ -7,8 +7,8 @@ tags:
 description: >
   Howdy! This is an example blog post that shows several types of HTML content
   supported in this theme.
-hero: https://source.unsplash.com/collection/145103/
-overlay: cyan
+hero: https://images.unsplash.com/photo-1516738901171-8eb4fc13bd20?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80
+overlay: blue
 published: true
 ---
 
