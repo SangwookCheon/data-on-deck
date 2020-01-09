@@ -3,10 +3,10 @@
   <channel>
     <title>data on deck</title>
     <description>A blog about data</description>
-    <link>http://localhost:4000/blog/</link>
-    <atom:link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 09 Jan 2020 22:52:23 +0700</pubDate>
-    <lastBuildDate>Thu, 09 Jan 2020 22:52:23 +0700</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 09 Jan 2020 23:02:33 +0700</pubDate>
+    <lastBuildDate>Thu, 09 Jan 2020 23:02:33 +0700</lastBuildDate>
     <generator>Jekyll v3.6.3</generator>
     
       <item>
@@ -82,8 +82,8 @@
 &lt;p&gt;You can also learn about Foursquare API, a map-related API with many social features, by referring to &lt;a href=&quot;https://github.com/SangwookCheon/non-e-stop-python-data-science/blob/master/Machine-Learning/Example%20Projects/IBM%20Capstone%20Project/foursquare_api_exploration.ipynb&quot;&gt;this notebook&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Fri, 12 Jul 2019 00:00:00 +0700</pubDate>
-        <link>http://localhost:4000/blog/posts/adding-latitude-longitude-geocoder</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/posts/adding-latitude-longitude-geocoder</guid>
+        <link>http://localhost:4000/posts/adding-latitude-longitude-geocoder</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/adding-latitude-longitude-geocoder</guid>
         
         <category>jekyll</category>
         
@@ -246,8 +246,8 @@ Nullam id &lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&
 &lt;/div&gt;
 </description>
         <pubDate>Fri, 20 Jan 2017 00:00:00 +0700</pubDate>
-        <link>http://localhost:4000/blog/posts/example-content</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/posts/example-content</guid>
+        <link>http://localhost:4000/posts/example-content</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/example-content</guid>
         
         <category>jekyll</category>
         
