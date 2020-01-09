@@ -26,12 +26,12 @@ const LightTheme = {
 
 const NightTheme = {
   '--bg-color': '#1c1c1c',
-  '--text-color': '#c4c4c4',
+  '--text-color': '#ffffff',
   '--text-color-light': '#777',
   '--link-color': '#f1f1f1',
   '--metadata-color': '#666',
   '--post-title': '#fff',
-  '--code-bg-color': '#252525',
+  '--code-bg-color': 'rgba(#222222, 0)',
   '--code-border': '#222',
   '--table-border-color': '#292929',
   '--table-header-color': '#505050',
