@@ -5,7 +5,7 @@ url                          : "" # the base hostname & protocol for your site
                                   # `http://<username>.github.io` - for GitHub
 
 blog:
-  title                      : Data on Deck
+  title                      : data on deck
   description                  : A blog about data
 
 # Layout configuration
@@ -20,7 +20,7 @@ blog:
 
 # Fonts
   font                       : '"Rubik", -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif'
-  load_google_fonts          : 'Rubik:400,400italic,700,700italic'
+  load_google_fonts          : 'Gelasio|Rubik:400,400i,700,700i'
 
 
 # Author info
@@ -55,7 +55,7 @@ permalink                    : posts/:slug
 excerpt_separator            : <!–-break-–>
 
 # Pagination
-paginate                     : 5
+paginate                     : 7
 paginate_path                : '/page-:num/'
 
 # Tags

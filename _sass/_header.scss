@@ -8,11 +8,12 @@ header {
 
 .logo {
     font-size: 3.5rem;
+    // font-family: ''; //Change the Font for the Logo
     font-weight: $base-font-weight-bold;
     color: var(--link-color);
 
     .logosvg {
-    	  height: 2.7rem;
+    	  height: 3.5rem;
         -webkit-filter: var(--invert-logo-color);
     }
 }
@@ -46,8 +47,8 @@ header {
 
 // Social icons
 .social {
-    float: right;
-    margin-top: 1.75rem;
+    float: center;
+    margin-top: 1.0rem;
     ul {
       list-style-type: none;
       margin: 0;
