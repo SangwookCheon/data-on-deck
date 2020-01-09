@@ -10,7 +10,6 @@ sitemap:
 <div class="page">
 
 {% capture page_subtitle %}
-  {% include page/searchbox.html %}
 {% endcapture %}
 
 {% include page/title.html title=page.title subtitle=page_subtitle %}

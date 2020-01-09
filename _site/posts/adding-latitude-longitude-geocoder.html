@@ -4,21 +4,27 @@
        <meta charset="utf-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
-<title>Data on Deck </title>
-<!---->
-<meta name="description" content="A blog about Data">
-<link rel="canonical" href="http://localhost:4000/">
+<title>Adding Latitude and Longitude given a location using Geocoder library &#9642; Data on Deck</title>
+<!--
+<meta name="description" content="Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
+">
+-->
+<meta name="description" content="Howdy! This is an example blog post that shows several types of HTML content supported in this theme.">
+<meta name="keywords" content="jekyll, dactl">
+<link rel="canonical" href="http://localhost:4000/posts/adding-latitude-longitude-geocoder">
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="Blog" />
-<meta name="twitter:description" content="A blog about Data" />
+<meta name="twitter:title" content="Adding Latitude and Longitude given a location using Geocoder library" />
+<meta name="twitter:description" content="Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
+" />
 <meta name="twitter:image" content="http://localhost:4000" />
 <meta name="author" content="">
 <link rel="author" href="">
 <meta property="og:locale" content="">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Blog">
-<meta property="og:description" content="A blog about Data">
-<meta property="og:url" content="http://localhost:4000/">
+<meta property="og:title" content="Adding Latitude and Longitude given a location using Geocoder library">
+<meta property="og:description" content="Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
+">
+<meta property="og:url" content="http://localhost:4000/posts/adding-latitude-longitude-geocoder">
 <meta property="og:site_name" content="Data on Deck">
 <link rel="stylesheet" href="/blog/assets/vendor/normalize-css/normalize.css">
 <link rel="stylesheet" href="/blog/assets/css/main.css">
@@ -63,7 +69,7 @@
      </ul>
    </div>
 </header>
-<article class="blog">
+<article class="post">
 <style>
   .adding-latitude-longitude-geocoder {
     margin-bottom: 2em;
@@ -111,17 +117,15 @@
         }
     }
 </style>
- <div class="
-    post-title-container
-        adding-latitude-longitude-geocoder adding-latitude-longitude-geocoder-container hero-hov
-  ">
-   <div class="heading-container hero-heading hero-heading-blog">
+ <div class="post-title-container
+  adding-latitude-longitude-geocoder adding-latitude-longitude-geocoder-bleed-container bleed-hero-container
+    ">
+    <!--Post hero image source-->
+   <div class="heading-container hero-heading hero-heading-post">
      <h1>
-          <a href="/blog/posts/adding-latitude-longitude-geocoder" title="Adding Latitude and Longitude given a location using Geocoder library">Adding Latitude and Longitude given a location using Geocoder library</a>
+          Adding Latitude and Longitude given a location using Geocoder library
      </h1>
-     <div class="
-        post-meta
-      ">
+     <div class="post-meta">
         <span>12/07/2019</span>
         <span>
               <a href="/blog/tag/jekyll">#jekyll</a>
@@ -130,7 +134,7 @@
      </div>
    </div>
  </div>
-     <h1 id="about-geocoder">About Geocoder</h1>
+   <h1 id="about-geocoder">About Geocoder</h1>
 <p><a href="https://geocoder.readthedocs.io/">Geocoder</a> is a python library that enables us to get Latitude and Longitude value given an address anywhere in the world. I will work with the cleaned dataset I created with Beautiful soup from this <a href="https://sangwookcheon.github.io/2019/07/12/web-scraping-using-beautiful-soup/">article</a>. I will Latitude and Longitude coordinates to each Postal Code.
 <p>It is important to note that Geocoder library can sometimes be inconsistent, returning ‘None’ instead of coordinates. This library is free-of-charge, but you might want to use a more stable but paid service like <a href="https://developers.google.com/maps/documentation/geocoding/start">Google Geocoding API</a>. For this task, using Geocoder library is enough.
 <p>First let’s import Geocoder library and other tools:
@@ -189,94 +193,28 @@
 <p>Getting coordinates is important in many applications, such as putting marks on trending places on a map and clustering places based on their latitude and longitude values.
 <p>Here is a <a href="https://github.com/SangwookCheon/non-e-stop-python-data-science/blob/master/Machine-Learning/Example%20Projects/IBM%20Capstone%20Project/add_latlon.ipynb">link to Jupyter Notebook</a> for this article.
 <p>You can also learn about Foursquare API, a map-related API with many social features, by referring to <a href="https://github.com/SangwookCheon/non-e-stop-python-data-science/blob/master/Machine-Learning/Example%20Projects/IBM%20Capstone%20Project/foursquare_api_exploration.ipynb">this notebook</a>.
-       <div class="readmore">
-          <a href="/blog/posts/adding-latitude-longitude-geocoder" role="button">Read more</a>
-       <div>
 </article>
- <hr>
-<article class="blog">
-<style>
-  .example-content {
-    margin-bottom: 2em;
-  }
-  .example-content::before {
-    background-image: url('https://source.unsplash.com/collection/145103/');
-    background-size: cover;
-    -webkit-filter: grayscale(1) brightness(0.5) contrast(0.5);
-    content:'';
-    position:absolute;
-    width: 100%;
-    left: 0;
-    top: 0;
-    z-index: -2;
-  }
-  .example-content::after {
-    content:'';
-    position:absolute;
-    width: 100%;
-    left: 0;
-    top: 0;
-    background-color: rgba(100,255,0,0.8);
-    /*mix-blend-mode: darken;
-    mix-blend-mode: color-burn;
-    mix-blend-mode: hard-light;*/
-    mix-blend-mode: overlay;
-    z-index: -1;
-  }
-  .example-content-container,
-  .example-content-container::before,
-  .example-content-container::after {
-    height: 25rem;
-  }
-  .example-content-bleed-container,
-  .example-content-bleed-container::before,
-  .example-content-bleed-container::after {
-    height: 35rem;
-  }
-    @media (max-width: 48rem) {
-        .example-content-container,
-        .example-content-container::before,
-        .example-content-container::after{
-            height: 20rem;
-            margin-bottom: 3rem;
-        }
-    }
-</style>
- <div class="
-    post-title-container
-        example-content example-content-container hero-hov
-  ">
-   <div class="heading-container hero-heading hero-heading-blog">
-     <h1>
-          <a href="/blog/posts/example-content" title="Example content">Example content</a>
-     </h1>
-     <div class="
-        post-meta
-      ">
-        <span>20/01/2017</span>
-        <span>
-              <a href="/blog/tag/jekyll">#jekyll</a>
-              <a href="/blog/tag/dactl">#dactl</a>
-        </span>
-     </div>
-   </div>
- </div>
-     <p class="lead">Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. <em>Aenean eu leo quam.</em> Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
-<p>Etiam porta <strong>sem malesuada magna</strong> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
-       <div class="readmore">
-          <a href="/blog/posts/example-content" role="button">Read more</a>
-       <div>
-</article>
-<nav class="pagination" role="navigation">
-<hr/>
- <ul>
-   <li class="pagination-item-prev" >
-      <span>&laquo; Previous</span>
-   <li class="pagination-item-next" >
-      <span>Next &raquo;</span>
- </ul>
-<hr/>
-</nav>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'data-on-deck';
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+<aside class="related">
+<h2>Related posts</h2>
+<ul class="related-posts">
+   <li>
+    <a href="/blog/posts/example-content">
+        <span>Example content</span>
+        <small>20/01</small>
+    </a>
+</aside>
            <footer>
     <span>A blog about Data</span>
     <span>written by Sangwook Cheon</span>

@@ -1,13 +1,12 @@
 # Base blog settings
-baseurl                      : "/dactl/" # the subpath of your site,                         # e.g. /blog/
+baseurl                      : "/blog" # the subpath of your site,                         # e.g. /blog/
                               # set to '' in case of hosting on GitHub
 url                          : "" # the base hostname & protocol for your site
                                   # `http://<username>.github.io` - for GitHub
 
 blog:
-  title                      : dactl
-  description                  : >
-                               this should contain a proper description
+  title                      : Data on Deck
+  description                  : A blog about data
 
 # Layout configuration
   logo_path                  : "assets/img/dactl.svg" # path to logo file
@@ -26,14 +25,14 @@ blog:
 
 # Author info
 author:
-  fullname                  : Your Name
+  fullname                  : Sangwook Cheon
   rss                       : true # generate RSS feed and show it's icon in header
-  mail                      : your@email.com # change to your e-mail address
-  twitter                   : twitter-user-name
-  github                    : github-user-name
-  youtube                   : youtube-user-name
-  stackoverflow             : stackoverflow-user-name
-  disqus                    : dactl # your disqus site name
+  mail                      : 45622@jisedu.or.id # change to your e-mail address
+  # twitter                   : twitter-user-name
+  github                    : sangwookcheon
+  # youtube                   : youtube-user-name
+  # stackoverflow             : stackoverflow-user-name
+  disqus                    : data-on-deck # your disqus site name
   google_analytics          : # 'UA-XXXXXXXX-X'
   photo                     : "uploads/me2.png"
   photo2x                   : "uploads/me.png"
