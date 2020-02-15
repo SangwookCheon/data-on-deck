@@ -34,6 +34,7 @@ postal_codes = data['PostalCode'].tolist()
 ```
 
 Now is the part where I loop until coordinates are derived from the `geocoder.google` function, and then add it to the original table.
+
 ```python
 # loop until we get the coordinates
 for index, code in enumerate(postal_codes):
