@@ -3,10 +3,10 @@
   <channel>
     <title>OneTwentyTwo</title>
     <description>Interesting things</description>
-    <link>http://localhost:4000/sangwookcheon.github.io/</link>
-    <atom:link href="http://localhost:4000/sangwookcheon.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 15 Feb 2020 20:22:55 +0700</pubDate>
-    <lastBuildDate>Sat, 15 Feb 2020 20:22:55 +0700</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 15 Feb 2020 20:24:57 +0700</pubDate>
+    <lastBuildDate>Sat, 15 Feb 2020 20:24:57 +0700</lastBuildDate>
     <generator>Jekyll v3.6.3</generator>
     
       <item>
@@ -22,8 +22,8 @@
 &lt;p&gt;Fifth, on the “Light” page, I want to showcase one thing at the top, like a drawing, interactive, p5.js project, etc.&lt;/p&gt;
 </description>
         <pubDate>Sat, 15 Feb 2020 00:00:00 +0700</pubDate>
-        <link>http://localhost:4000/sangwookcheon.github.io/posts/blog-design-changes</link>
-        <guid isPermaLink="true">http://localhost:4000/sangwookcheon.github.io/posts/blog-design-changes</guid>
+        <link>http://localhost:4000/posts/blog-design-changes</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/blog-design-changes</guid>
         
         <category>howto</category>
         
@@ -103,8 +103,8 @@
 &lt;p&gt;You can also learn about Foursquare API, a map-related API with many social features, by referring to &lt;a href=&quot;https://github.com/SangwookCheon/non-e-stop-python-data-science/blob/master/Machine-Learning/Example%20Projects/IBM%20Capstone%20Project/foursquare_api_exploration.ipynb&quot;&gt;this notebook&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Fri, 12 Jul 2019 00:00:00 +0700</pubDate>
-        <link>http://localhost:4000/sangwookcheon.github.io/posts/adding-latitude-longitude-geocoder</link>
-        <guid isPermaLink="true">http://localhost:4000/sangwookcheon.github.io/posts/adding-latitude-longitude-geocoder</guid>
+        <link>http://localhost:4000/posts/adding-latitude-longitude-geocoder</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/adding-latitude-longitude-geocoder</guid>
         
         <category>howto</category>
         
@@ -265,8 +265,8 @@ Nullam id &lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&
 &lt;/div&gt;
 </description>
         <pubDate>Fri, 20 Jan 2017 00:00:00 +0700</pubDate>
-        <link>http://localhost:4000/sangwookcheon.github.io/posts/example-content</link>
-        <guid isPermaLink="true">http://localhost:4000/sangwookcheon.github.io/posts/example-content</guid>
+        <link>http://localhost:4000/posts/example-content</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/example-content</guid>
         
         <category>howto</category>
         
