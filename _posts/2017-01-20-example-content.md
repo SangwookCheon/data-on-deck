@@ -2,8 +2,7 @@
 layout: post
 title: Example content
 tags:
-  - jekyll
-  - dactl
+  - howto
 description: >
   Howdy! This is an example blog post that shows several types of HTML content
   supported in this theme.
@@ -116,7 +115,7 @@ Nullam id [^2] dolor id nibh ultricies vehicula ut id elit. Sed posuere consecte
 
 [^1]: You can insert footnote marks using `[^1]`, `[^2]`, etc and write the footnote text at the bottom of your file like this: `[^1]: You can also insert footnote marks...`
 
-[^2]: Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.
+[^2]: What you see is correct!!!
 
 *[HTML]: HyperText Markup Language
 *[CSS]: Cascading Style Sheets

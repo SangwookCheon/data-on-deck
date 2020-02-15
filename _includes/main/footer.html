@@ -1,6 +1,8 @@
 <footer>
     <span>{{ site.blog.description }}</span>
     <span>written by {{ site.author.fullname }}</span>
+    <br>
+    <span><a href="{{ '/about' | prepend: site.baseurl }}">About Me</a></span>
     <div class="social">
       <ul>
         {% if site.author.youtube %}

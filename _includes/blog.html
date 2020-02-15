@@ -2,7 +2,6 @@
 
 <article class="blog">
 
-
   {% if site.blog.hero_layout == true %}
     {% include utils/hero.html %}
   {% endif %}
@@ -30,6 +29,7 @@
           <a href="{{ post.url | relative_url }}" title="{{ post.title }}">{{ post.title }}</a>
         {% endif %}
       </h1>
+
     <!-- Post meta -->
       <div class="
       {% if site.blog.hero_layout == true %}
@@ -38,7 +38,6 @@
         post-meta-nohero
         {% endif %}
       ">
-
         <span>{{ post.date | date: "%d/%m/%Y" }}</span>
 
         {% if site.blog.hero_layout == false %}

@@ -1,18 +1,18 @@
 # Base blog settings
 baseurl                      : "" # the subpath of your site,                         # e.g. /blog/
                               # set to '' in case of hosting on GitHub
-url                          : "https://sangwookcheon.github.io" # the base hostname & protocol for your site
+url                          : "" # the base hostname & protocol for your site
                                   # `http://<username>.github.io` - for GitHub
 
 blog:
-  title                      : data on deck
-  description                  : A blog about data
+  title                      : OneTwentyTwo
+  description                  : Interesting things
 
 # Layout configuration
   logo_path                  : "assets/img/smiley4.svg" # path to logo file
   search_path                : data-on-deck # "yourgitusername.github.io"
                                # needed for searchbox in archive page
-  hero_layout                : true # turn on hero layout for blog and posts
+  hero_layout                : false # turn on hero layout for blog and posts
   hero_placeholder           : "assets/img/generic_hero.jpg" # placeholder for hero image
   excerpts                   : true # show excerpts instead of full post content on blog page
   inline_footnotes           : true # enable/disable barefoot inline footnotes
@@ -34,7 +34,7 @@ author:
   # stackoverflow             : stackoverflow-user-name
   disqus                    : data-on-deck # your disqus site name
   google_analytics          : # 'UA-XXXXXXXX-X'
-  photo                     : "uploads/me2.png"
+  photo                     : "uploads/me.png"
   photo2x                   : "uploads/me.png"
 
 

@@ -2,8 +2,7 @@
 layout: post
 title: Adding Latitude and Longitude given a location using Geocoder library
 tags:
-  - jekyll
-  - dactl
+  - howto
 description: >
   Howdy! This is an example blog post that shows several types of HTML content
   supported in this theme.
