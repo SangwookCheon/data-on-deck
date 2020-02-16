@@ -107,11 +107,11 @@ sass:
 
 # HTML Compression
 # - http://jch.penibelst.de/
-compress_html:
-  clippings               : all
-  endings                 : all
-  comments                : ["<!-- ", " -->"]
-  blanklines              : true
-  profile                 : false
-  ignore:
-  envs                    : [local]
+# compress_html:
+#   clippings               : all
+#   endings                 : all
+#   comments                : ["<!-- ", " -->"]
+#   blanklines              : true
+#   profile                 : false
+#   ignore:
+#   envs                    : [local]

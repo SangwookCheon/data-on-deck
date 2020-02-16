@@ -1,120 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-   <head>
-       <meta charset="utf-8">
-<meta http-equiv="x-ua-compatible" content="ie=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
-<title>OneTwentyTwo </title>
-<!---->
-<meta name="description" content="Interesting things">
-<link rel="canonical" href="http://localhost:4000/">
-<meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="Blog" />
-<meta name="twitter:description" content="Interesting things" />
-<meta name="twitter:image" content="http://localhost:4000" />
-<meta name="author" content="">
-<link rel="author" href="">
-<meta property="og:locale" content="">
-<meta property="og:type" content="article">
-<meta property="og:title" content="Blog">
-<meta property="og:description" content="Interesting things">
-<meta property="og:url" content="http://localhost:4000/">
-<meta property="og:site_name" content="OneTwentyTwo">
-<link rel="stylesheet" href="/assets/vendor/normalize-css/normalize.css">
-<link rel="stylesheet" href="/assets/css/main.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gelasio|Rubik:400,400i,700,700i">
-<style>
-    html {
-      font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
-    }
-</style>
-<link rel="stylesheet" href="/assets/css/bf.css">
-   <body>
-       <div class="wrapper" id="blep">
-          <header>
-   <div class="menu">
-     <div class="logo">
-        <a class="unselectable" href="/">OneTwentyTwo</a>
-        <object type="image/svg+xml" data="/assets/img/smiley4.svg" class="logosvg unselectable">No SVG</object>
-     </div>
-       <ul>
-           <li><a href="/heavy">heavy</a>
-           <li><a href="/light">light</a>
-           <li><a href="/interactive">moving</a>
-           <li><a href="/archive">archive</a>
-       </ul>
-   </div>
-</header>
-<h1>Today's Snippet</h1>
-<img src="snippets/cartoons/grownups.png" alt="">
-<hr>
-<article class="blog">
- <div class="
-    post-title-container-nohero
-  ">
-     <h1>
-          <a href="/posts/blog-design-changes" title="Design Changes I want to make to this Blog">Design Changes I want to make to this Blog</a>
-     </h1>
-     <div class="
-        post-meta-nohero
-      ">
-        <span>15/02/2020</span>
-        <span class="post-meta-link-nohero"><a href="/posts/blog-design-changes">&#9642;</a></span>
-        <span>
-              <a href="/tag/howto">#howto</a>
-        </span>
-     </div>
- </div>
-     <p>First, I want to change the way each article appears on the homepage. For pagination, I want each article’s title to have a black thin frame around it, as if it is enclosed in a comic box. Instead of using a picture and color masking, I want to create a uniform appearance. So, the general theme is Black and White - like a traditional newspaper.
-<p>Second, I want to make each article shown in the homepage display description under the title, not the whole article (with fading). Maybe fading is cool, so I will keep that.
-<p>Third, I want to diversify the fonts used in the blog. For example, I want to change the font for the title. Font for the article looks fine. I want headers to have the same font as title.
-<p>Fourth, I want to change the link style for title of articles.
-<p>Fifth, on the “Light” page, I want to showcase one thing at the top, like a drawing, interactive, p5.js project, etc.
-       <div class="readmore">
-          <a href="/posts/blog-design-changes" role="button">Read more</a>
-       <div>
-</article>
- <hr>
-<article class="blog">
- <div class="
-    post-title-container-nohero
-  ">
-     <h1>
-          <a href="/posts/adding-latitude-longitude-geocoder" title="Adding Latitude and Longitude given a location using Geocoder library">Adding Latitude and Longitude given a location using Geocoder library</a>
-     </h1>
-     <div class="
-        post-meta-nohero
-      ">
-        <span>12/07/2019</span>
-        <span class="post-meta-link-nohero"><a href="/posts/adding-latitude-longitude-geocoder">&#9642;</a></span>
-        <span>
-              <a href="/tag/howto">#howto</a>
-        </span>
-     </div>
- </div>
-     <h1 id="about-geocoder">About Geocoder</h1>
-<p><a href="https://geocoder.readthedocs.io/">Geocoder</a> is a python library that enables us to get Latitude and Longitude value given an address anywhere in the world. I will work with the cleaned dataset I created with Beautiful soup from this <a href="https://sangwookcheon.github.io/2019/07/12/web-scraping-using-beautiful-soup/">article</a>. I will Latitude and Longitude coordinates to each Postal Code.
-<p>It is important to note that Geocoder library can sometimes be inconsistent, returning ‘None’ instead of coordinates. This library is free-of-charge, but you might want to use a more stable but paid service like <a href="https://developers.google.com/maps/documentation/geocoding/start">Google Geocoding API</a>. For this task, using Geocoder library is enough.
-<p>First let’s import Geocoder library and other tools:
-<div class="language-python highlighter-rouge"><div class="highlight"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
-2</pre><td class="code"><pre><span class="kn">import</span> <span class="nn">geocoder</span>
+<!DOCTYPE html> <html lang="en"> <head> <meta charset="utf-8"> <meta http-equiv="x-ua-compatible" content="ie=edge"> <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"> <title>OneTwentyTwo <!-- &middot; --> </title> <!----> <meta name="description" content="Interesting things"> <link rel="canonical" href="http://localhost:4000/"> <!-- Twitter Cards --> <meta name="twitter:card" content="summary" /> <meta name="twitter:title" content="Blog" /> <meta name="twitter:description" content="Interesting things" /> <meta name="twitter:image" content="http://localhost:4000" /> <!-- Google plus --> <meta name="author" content=""> <link rel="author" href=""> <!-- Open Graph --> <meta property="og:locale" content=""> <meta property="og:type" content="article"> <meta property="og:title" content="Blog"> <meta property="og:description" content="Interesting things"> <meta property="og:url" content="http://localhost:4000/"> <meta property="og:site_name" content="OneTwentyTwo"> <!-- Styles --> <link rel="stylesheet" href="/assets/vendor/normalize-css/normalize.css"> <link rel="stylesheet" href="/assets/css/main.css"> <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gelasio|Rubik:400,400i,700,700i"> <style> html { font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif; } </style> <link rel="stylesheet" href="/assets/css/bf.css"> </head> <body> <div class="wrapper" id="blep"> <header> <div class="menu"> <div class="logo"> <a class="unselectable" href="/">OneTwentyTwo</a> <object type="image/svg+xml" data="/assets/img/smiley4.svg" class="logosvg unselectable">No SVG</object> </div> <ul> <!-- <li> <a href="#" onclick="switchTheme()" title="Switch theme?"> <span class="icon-invert_colors" id="theme-switcher"></span> </a> </li> --> <li><a href="/heavy">heavy</a></li> <li><a href="/light">light</a></li> <li><a href="/interactive">moving</a></li> <li><a href="/archive">archive</a></li> </ul> </div> <!-- There used to be the Social Section with icons. I moved it to the footer. --> </header> <!-- This is a place to add a snippet to the homepage. Any cartoon or drawing or experiment I want to put. --> <h1>Today's Snippet</h1> <img src="snippets/cartoons/grownups.png" alt=""> <hr> <article class="blog"> <!-- Post title (& hero image) container --> <div class=" post-title-container-nohero "> <!-- Post title --> <h1> <a href="/posts/blog-design-changes" title="Design Changes I want to make to this Blog">Design Changes I want to make to this Blog</a> </h1> <!-- Post meta --> <div class=" post-meta-nohero "> <span>15/02/2020</span> <span class="post-meta-link-nohero"><a href="/posts/blog-design-changes">&#9642;</a></span> <span> <a href="/tag/howto">#howto</a> </span> </div> </div> <p>First, I want to change the way each article appears on the homepage. For pagination, I want each article’s title to have a black thin frame around it, as if it is enclosed in a comic box. Instead of using a picture and color masking, I want to create a uniform appearance. So, the general theme is Black and White - like a traditional newspaper.</p> <p>Second, I want to make each article shown in the homepage display description under the title, not the whole article (with fading). Maybe fading is cool, so I will keep that.</p> <p>Third, I want to diversify the fonts used in the blog. For example, I want to change the font for the title. Font for the article looks fine. I want headers to have the same font as title.</p> <p>Fourth, I want to change the link style for title of articles.</p> <p>Fifth, on the “Light” page, I want to showcase one thing at the top, like a drawing, interactive, p5.js project, etc.</p> <div class="readmore"> <a href="/posts/blog-design-changes" role="button">Read more</a> <div> </article> <!-- Last post does not need a hr --> <hr> <article class="blog"> <!-- Post title (& hero image) container --> <div class=" post-title-container-nohero "> <!-- Post title --> <h1> <a href="/posts/adding-latitude-longitude-geocoder" title="Adding Latitude and Longitude given a location using Geocoder library">Adding Latitude and Longitude given a location using Geocoder library</a> </h1> <!-- Post meta --> <div class=" post-meta-nohero "> <span>12/07/2019</span> <span class="post-meta-link-nohero"><a href="/posts/adding-latitude-longitude-geocoder">&#9642;</a></span> <span> <a href="/tag/howto">#howto</a> </span> </div> </div> <h1 id="about-geocoder">About Geocoder</h1> <p><a href="https://geocoder.readthedocs.io/">Geocoder</a> is a python library that enables us to get Latitude and Longitude value given an address anywhere in the world. I will work with the cleaned dataset I created with Beautiful soup from this <a href="https://sangwookcheon.github.io/2019/07/12/web-scraping-using-beautiful-soup/">article</a>. I will Latitude and Longitude coordinates to each Postal Code.</p> <p>It is important to note that Geocoder library can sometimes be inconsistent, returning ‘None’ instead of coordinates. This library is free-of-charge, but you might want to use a more stable but paid service like <a href="https://developers.google.com/maps/documentation/geocoding/start">Google Geocoding API</a>. For this task, using Geocoder library is enough.</p> <p>First let’s import Geocoder library and other tools:</p> <div class="language-python highlighter-rouge"><div class="highlight"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2</pre></td><td class="code"><pre><span class="kn">import</span> <span class="nn">geocoder</span>
 <span class="kn">import</span> <span class="nn">pandas</span> <span class="kn">as</span> <span class="nn">pd</span>
-</pre></table>
-</div>
-</div>
-<p>Here are the first 10 rows of my cleaned table. In total, there are 103 rows, meaning that there are 103 unique postal codes.
-<p>We first need to initialize lat-long coordinates to be an empty list, which will be filled for each postal code and added to the table. We also need to get postal codes from the table.
-<p>I stored the clean data table as <code class="highlighter-rouge">data</code> by using <code class="highlighter-rouge">read_csv</code> function of Pandas.
-<div class="language-python highlighter-rouge"><div class="highlight"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+</pre></td></tr></tbody></table> </div> </div> <p>Here are the first 10 rows of my cleaned table. In total, there are 103 rows, meaning that there are 103 unique postal codes.</p> <p>We first need to initialize lat-long coordinates to be an empty list, which will be filled for each postal code and added to the table. We also need to get postal codes from the table.</p> <p>I stored the clean data table as <code class="highlighter-rouge">data</code> by using <code class="highlighter-rouge">read_csv</code> function of Pandas.</p> <div class="language-python highlighter-rouge"><div class="highlight"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
 2
-3</pre><td class="code"><pre><span class="c"># initialize variable to None</span>
+3</pre></td><td class="code"><pre><span class="c"># initialize variable to None</span>
 <span class="n">lat_lng_coords</span> <span class="o">=</span> <span class="bp">None</span>
 <span class="n">postal_codes</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s">'PostalCode'</span><span class="p">]</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span>
-</pre></table>
-</div>
-</div>
-<p>Now is the part where I loop until coordinates are derived from the <code class="highlighter-rouge">geocoder.google</code> function, and then add it to the original table.
-<div class="language-python highlighter-rouge"><div class="highlight"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+</pre></td></tr></tbody></table> </div> </div> <p>Now is the part where I loop until coordinates are derived from the <code class="highlighter-rouge">geocoder.google</code> function, and then add it to the original table.</p> <div class="language-python highlighter-rouge"><div class="highlight"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
 2
 3
 4
@@ -127,7 +19,7 @@
 11
 12
 13
-14</pre><td class="code"><pre><span class="c"># loop until we get the coordinates</span>
+14</pre></td><td class="code"><pre><span class="c"># loop until we get the coordinates</span>
 <span class="k">for</span> <span class="n">index</span><span class="p">,</span> <span class="n">code</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">postal_codes</span><span class="p">):</span>
     <span class="k">while</span><span class="p">(</span><span class="n">lat_lng_coords</span> <span class="ow">is</span> <span class="bp">None</span><span class="p">):</span>
         <span class="n">g</span> <span class="o">=</span> <span class="n">geocoder</span><span class="o">.</span><span class="n">google</span><span class="p">(</span><span class="s">'{}, Toronto, Ontario'</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">code</span><span class="p">))</span>
@@ -141,81 +33,4 @@
 
     <span class="c">#Re-initialize the variable.</span>
     <span class="n">lat_lng_coords</span> <span class="o">=</span> <span class="bp">None</span>
-</pre></table>
-</div>
-</div>
-<p>Doing this might take some time, because there is loading time when getting coordinates. When finished, now there is an updated table with two new columns, named <code class="highlighter-rouge">latitude</code> and <code class="highlighter-rouge">longitude</code>, as shown below:
-<img src="/in-post-images/Screen Shot 2019-07-13 at 11.45.23.png" alt="" />
-<h1 id="recap">Recap</h1>
-<p>Geocoder library can be used to get latitude and longitude values using a street address. This library is free-of-charge, but can sometimes be inconsistent in yielding results.
-<p>Getting coordinates is important in many applications, such as putting marks on trending places on a map and clustering places based on their latitude and longitude values.
-<p>Here is a <a href="https://github.com/SangwookCheon/non-e-stop-python-data-science/blob/master/Machine-Learning/Example%20Projects/IBM%20Capstone%20Project/add_latlon.ipynb">link to Jupyter Notebook</a> for this article.
-<p>You can also learn about Foursquare API, a map-related API with many social features, by referring to <a href="https://github.com/SangwookCheon/non-e-stop-python-data-science/blob/master/Machine-Learning/Example%20Projects/IBM%20Capstone%20Project/foursquare_api_exploration.ipynb">this notebook</a>.
-       <div class="readmore">
-          <a href="/posts/adding-latitude-longitude-geocoder" role="button">Read more</a>
-       <div>
-</article>
- <hr>
-<article class="blog">
- <div class="
-    post-title-container-nohero
-  ">
-     <h1>
-          <a href="/posts/example-content" title="Example content">Example content</a>
-     </h1>
-     <div class="
-        post-meta-nohero
-      ">
-        <span>20/01/2017</span>
-        <span class="post-meta-link-nohero"><a href="/posts/example-content">&#9642;</a></span>
-        <span>
-              <a href="/tag/howto">#howto</a>
-        </span>
-     </div>
- </div>
-     <p class="lead">Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. <em>Aenean eu leo quam.</em> Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
-<p>Etiam porta <strong>sem malesuada magna</strong> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
-       <div class="readmore">
-          <a href="/posts/example-content" role="button">Read more</a>
-       <div>
-</article>
-<nav class="pagination" role="navigation">
-<hr/>
- <ul>
-   <li class="pagination-item-prev" >
-      <span>&laquo; Previous</span>
-   <li class="pagination-item-next" >
-      <span>Next &raquo;</span>
- </ul>
-<hr/>
-</nav>
-           <footer>
-    <span>Interesting things</span>
-    <span>written by Sangwook Cheon</span>
-    <br>
-    <span><a href="/about">About Me</a></span>
-   <div class="social">
-     <ul>
-       <li>
-            <a href="https://github.com/sangwookcheon" target="_blank" class="smaller">
-              <span class="icon-github"></span>
-            </a>
-       <li>
-            <a href="mailto:45622@jisedu.or.id" target="_blank">
-              <span class="icon-mail_outline"></span>
-            </a>
-       <li>
-            <a href="/feed.xml" target="_blank">
-                <span class="icon-rss_feed"></span>
-            </a>
-       <li>
-            <a href="#" onclick="switchTheme()" title="Switch theme?">
-              <span class="icon-invert_colors" id="theme-switcher"></span>
-            </a>
-     </ul>
-   </div>
-</footer>
-       </div>
-<script type="text/javascript" src="/assets/js/theme.js"></script>
-<script type="text/javascript" src="/assets/js/barefoot.js"></script>
-    
+</pre></td></tr></tbody></table> </div> </div> <p>Doing this might take some time, because there is loading time when getting coordinates. When finished, now there is an updated table with two new columns, named <code class="highlighter-rouge">latitude</code> and <code class="highlighter-rouge">longitude</code>, as shown below: <img src="/in-post-images/Screen Shot 2019-07-13 at 11.45.23.png" alt="" /></p> <h1 id="recap">Recap</h1> <p>Geocoder library can be used to get latitude and longitude values using a street address. This library is free-of-charge, but can sometimes be inconsistent in yielding results.</p> <p>Getting coordinates is important in many applications, such as putting marks on trending places on a map and clustering places based on their latitude and longitude values.</p> <p>Here is a <a href="https://github.com/SangwookCheon/non-e-stop-python-data-science/blob/master/Machine-Learning/Example%20Projects/IBM%20Capstone%20Project/add_latlon.ipynb">link to Jupyter Notebook</a> for this article.</p> <p>You can also learn about Foursquare API, a map-related API with many social features, by referring to <a href="https://github.com/SangwookCheon/non-e-stop-python-data-science/blob/master/Machine-Learning/Example%20Projects/IBM%20Capstone%20Project/foursquare_api_exploration.ipynb">this notebook</a>.</p> <div class="readmore"> <a href="/posts/adding-latitude-longitude-geocoder" role="button">Read more</a> <div> </article> <!-- Last post does not need a hr --> <hr> <article class="blog"> <!-- Post title (& hero image) container --> <div class=" post-title-container-nohero "> <!-- Post title --> <h1> <a href="/posts/example-content" title="Example content">Example content</a> </h1> <!-- Post meta --> <div class=" post-meta-nohero "> <span>20/01/2017</span> <span class="post-meta-link-nohero"><a href="/posts/example-content">&#9642;</a></span> <span> <a href="/tag/howto">#howto</a> </span> </div> </div> <p class="lead">Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. <em>Aenean eu leo quam.</em> Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p> <p>Etiam porta <strong>sem malesuada magna</strong> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p> <div class="readmore"> <a href="/posts/example-content" role="button">Read more</a> <div> </article> <!-- Last post does not need a hr --> <nav class="pagination" role="navigation"> <hr/> <ul> <li class="pagination-item-prev" > <span>&laquo; Previous</span> </li> <li class="pagination-item-next" > <span>Next &raquo;</span> </li> </ul> <hr/> </nav> <footer> <span>Interesting things</span> <span>written by Sangwook Cheon</span> <br> <span><a href="/about">About Me</a></span> <div class="social"> <ul> <li> <a href="https://github.com/sangwookcheon" target="_blank" class="smaller"> <span class="icon-github"></span> </a> </li> <li> <a href="mailto:45622@jisedu.or.id" target="_blank"> <span class="icon-mail_outline"></span> </a> </li> <li> <a href="/feed.xml" target="_blank"> <span class="icon-rss_feed"></span> </a> </li> <li> <a href="#" onclick="switchTheme()" title="Switch theme?"> <span class="icon-invert_colors" id="theme-switcher"></span> </a> </li> </ul> </div> </footer> </div> <!-- load theme switcher and barefoot footnotes --> <script type="text/javascript" src="/assets/js/theme.js"></script> <script type="text/javascript" src="/assets/js/barefoot.js"></script> </body> </html>
