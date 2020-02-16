@@ -5,9 +5,9 @@
     <description>Interesting things</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 16 Feb 2020 11:18:01 +0700</pubDate>
-    <lastBuildDate>Sun, 16 Feb 2020 11:18:01 +0700</lastBuildDate>
-    <generator>Jekyll v3.8.6</generator>
+    <pubDate>Sun, 16 Feb 2020 11:39:23 +0700</pubDate>
+    <lastBuildDate>Sun, 16 Feb 2020 11:39:23 +0700</lastBuildDate>
+    <generator>Jekyll v3.6.0</generator>
     
       <item>
         <title>Design Changes I want to make to this Blog</title>
@@ -257,10 +257,10 @@ Nullam id &lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&
 &lt;div class=&quot;footnotes&quot;&gt;
   &lt;ol&gt;
     &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;You can insert footnote marks using &lt;code class=&quot;highlighter-rouge&quot;&gt;[^1]&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;[^2]&lt;/code&gt;, etc and write the footnote text at the bottom of your file like this: &lt;code class=&quot;highlighter-rouge&quot;&gt;[^1]: You can also insert footnote marks...&lt;/code&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;You can insert footnote marks using &lt;code class=&quot;highlighter-rouge&quot;&gt;[^1]&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;[^2]&lt;/code&gt;, etc and write the footnote text at the bottom of your file like this: &lt;code class=&quot;highlighter-rouge&quot;&gt;[^1]: You can also insert footnote marks...&lt;/code&gt;&amp;nbsp;&lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:2&quot;&gt;
-      &lt;p&gt;What you see is correct!!! &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;What you see is correct!!!&amp;nbsp;&lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;
