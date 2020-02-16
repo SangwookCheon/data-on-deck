@@ -1,1 +1,120 @@
-<!DOCTYPE html> <html lang="en"> <head> <meta charset="utf-8"> <meta http-equiv="x-ua-compatible" content="ie=edge"> <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"> <title>Design Changes I want to make to this Blog &#9642; OneTwentyTwo</title> <!-- <meta name="description" content="This is a description of the article.{:.message} "> --> <meta name="description" content="This is a description of the article."> <meta name="keywords" content="howto"> <link rel="canonical" href="http://localhost:4000/posts/blog-design-changes"> <!-- Twitter Cards --> <meta name="twitter:card" content="summary" /> <meta name="twitter:title" content="Design Changes I want to make to this Blog" /> <meta name="twitter:description" content="This is a description of the article." /> <meta name="twitter:image" content="http://localhost:4000" /> <!-- Google plus --> <meta name="author" content=""> <link rel="author" href=""> <!-- Open Graph --> <meta property="og:locale" content=""> <meta property="og:type" content="article"> <meta property="og:title" content="Design Changes I want to make to this Blog"> <meta property="og:description" content="This is a description of the article."> <meta property="og:url" content="http://localhost:4000/posts/blog-design-changes"> <meta property="og:site_name" content="OneTwentyTwo"> <!-- Styles --> <link rel="stylesheet" href="/assets/vendor/normalize-css/normalize.css"> <link rel="stylesheet" href="/assets/css/main.css"> <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gelasio|Rubik:400,400i,700,700i"> <style> html { font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif; } </style> <link rel="stylesheet" href="/assets/css/bf.css"> </head> <body> <div class="wrapper" id="blep"> <header> <div class="menu"> <div class="logo"> <a class="unselectable" href="/">OneTwentyTwo</a> <object type="image/svg+xml" data="/assets/img/smiley4.svg" class="logosvg unselectable">No SVG</object> </div> <ul> <!-- <li> <a href="#" onclick="switchTheme()" title="Switch theme?"> <span class="icon-invert_colors" id="theme-switcher"></span> </a> </li> --> <li><a href="/heavy">heavy</a></li> <li><a href="/light">light</a></li> <li><a href="/interactive">moving</a></li> <li><a href="/archive">archive</a></li> </ul> </div> <!-- There used to be the Social Section with icons. I moved it to the footer. --> </header> <article class="post"> <!-- Post title (& hero image) container --> <div class="post-title-container no-hero-margin "> <!--Post hero image source--> <!-- Post title --> <div class="heading-container "> <h1> Design Changes I want to make to this Blog </h1> <!-- Post meta --> <div class="post-meta"> <span>15/02/2020</span> <!-- niedziela, 15 luty 2020 --> <span> <a href="/tag/howto">#howto</a> </span> </div> </div> </div> <!-- Post content --> <p>First, I want to change the way each article appears on the homepage. For pagination, I want each article’s title to have a black thin frame around it, as if it is enclosed in a comic box. Instead of using a picture and color masking, I want to create a uniform appearance. So, the general theme is Black and White - like a traditional newspaper.</p> <p>Second, I want to make each article shown in the homepage display description under the title, not the whole article (with fading). Maybe fading is cool, so I will keep that.</p> <p>Third, I want to diversify the fonts used in the blog. For example, I want to change the font for the title. Font for the article looks fine. I want headers to have the same font as title.</p> <p>Fourth, I want to change the link style for title of articles.</p> <p>Fifth, on the “Light” page, I want to showcase one thing at the top, like a drawing, interactive, p5.js project, etc.</p> </article> <div id="disqus_thread"></div> <script type="text/javascript"> /* * * CONFIGURATION VARIABLES * * */ var disqus_shortname = 'data-on-deck'; /* * * DON'T EDIT BELOW THIS LINE * * */ (function() { var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true; dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js'; (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq); })(); </script> <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript> <aside class="related"> <h2>Related posts</h2> <ul class="related-posts"> </aside> <footer> <span>Interesting things</span> <span>written by Sangwook Cheon</span> <br> <span><a href="/about">About Me</a></span> <div class="social"> <ul> <li> <a href="https://github.com/sangwookcheon" target="_blank" class="smaller"> <span class="icon-github"></span> </a> </li> <li> <a href="mailto:45622@jisedu.or.id" target="_blank"> <span class="icon-mail_outline"></span> </a> </li> <li> <a href="/feed.xml" target="_blank"> <span class="icon-rss_feed"></span> </a> </li> <li> <a href="#" onclick="switchTheme()" title="Switch theme?"> <span class="icon-invert_colors" id="theme-switcher"></span> </a> </li> </ul> </div> </footer> </div> <!-- load theme switcher and barefoot footnotes --> <script type="text/javascript" src="/assets/js/theme.js"></script> <script type="text/javascript" src="/assets/js/barefoot.js"></script> </body> </html>
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+       <meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+<title>Design Changes I want to make to this Blog &#9642; OneTwentyTwo</title>
+<!--
+<meta name="description" content="This is a description of the article.{:.message}
+">
+-->
+<meta name="description" content="This is a description of the article.">
+<meta name="keywords" content="howto">
+<link rel="canonical" href="http://localhost:4000/posts/blog-design-changes">
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Design Changes I want to make to this Blog" />
+<meta name="twitter:description" content="This is a description of the article." />
+<meta name="twitter:image" content="http://localhost:4000" />
+<meta name="author" content="">
+<link rel="author" href="">
+<meta property="og:locale" content="">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Design Changes I want to make to this Blog">
+<meta property="og:description" content="This is a description of the article.">
+<meta property="og:url" content="http://localhost:4000/posts/blog-design-changes">
+<meta property="og:site_name" content="OneTwentyTwo">
+<link rel="stylesheet" href="/assets/vendor/normalize-css/normalize.css">
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gelasio|Rubik:400,400i,700,700i">
+<style>
+    html {
+      font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+    }
+</style>
+<link rel="stylesheet" href="/assets/css/bf.css">
+   <body>
+       <div class="wrapper" id="blep">
+          <header>
+   <div class="menu">
+     <div class="logo">
+        <a class="unselectable" href="/">OneTwentyTwo</a>
+        <object type="image/svg+xml" data="/assets/img/smiley4.svg" class="logosvg unselectable">No SVG</object>
+     </div>
+       <ul>
+           <li><a href="/heavy">heavy</a>
+           <li><a href="/light">light</a>
+           <li><a href="/interactive">moving</a>
+           <li><a href="/archive">archive</a>
+       </ul>
+   </div>
+</header>
+<article class="post">
+ <div class="post-title-container
+  no-hero-margin
+  ">
+    <!--Post hero image source-->
+   <div class="heading-container ">
+     <h1>
+          Design Changes I want to make to this Blog
+     </h1>
+     <div class="post-meta">
+        <span>15/02/2020</span>
+        <span>
+              <a href="/tag/howto">#howto</a>
+        </span>
+     </div>
+   </div>
+ </div>
+   <p>First, I want to change the way each article appears on the homepage. For pagination, I want each article’s title to have a black thin frame around it, as if it is enclosed in a comic box. Instead of using a picture and color masking, I want to create a uniform appearance. So, the general theme is Black and White - like a traditional newspaper.
+<p>Second, I want to make each article shown in the homepage display description under the title, not the whole article (with fading). Maybe fading is cool, so I will keep that.
+<p>Third, I want to diversify the fonts used in the blog. For example, I want to change the font for the title. Font for the article looks fine. I want headers to have the same font as title.
+<p>Fourth, I want to change the link style for title of articles.
+<p>Fifth, on the “Light” page, I want to showcase one thing at the top, like a drawing, interactive, p5.js project, etc.
+</article>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'data-on-deck';
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+<aside class="related">
+<h2>Related posts</h2>
+<ul class="related-posts">
+</aside>
+           <footer>
+    <span>Interesting things</span>
+    <span>written by Sangwook Cheon</span>
+    <br>
+    <span><a href="/about">About Me</a></span>
+   <div class="social">
+     <ul>
+       <li>
+            <a href="https://github.com/sangwookcheon" target="_blank" class="smaller">
+              <span class="icon-github"></span>
+            </a>
+       <li>
+            <a href="mailto:45622@jisedu.or.id" target="_blank">
+              <span class="icon-mail_outline"></span>
+            </a>
+       <li>
+            <a href="/feed.xml" target="_blank">
+                <span class="icon-rss_feed"></span>
+            </a>
+       <li>
+            <a href="#" onclick="switchTheme()" title="Switch theme?">
+              <span class="icon-invert_colors" id="theme-switcher"></span>
+            </a>
+     </ul>
+   </div>
+</footer>
+       </div>
+<script type="text/javascript" src="/assets/js/theme.js"></script>
+<script type="text/javascript" src="/assets/js/barefoot.js"></script>
+    

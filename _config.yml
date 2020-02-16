@@ -92,7 +92,7 @@ kramdown:
   # span, block element options fall back to global
   syntax_highlighter_opts:
     # Rouge Options › https://github.com/jneen/rouge#full-options
-    css_class: 'highlight'
+    # css_class: 'highlight'
     #line_numbers: true # bad idea, spans don't need linenos and would inherit this option
     span:
       line_numbers: false
@@ -107,11 +107,11 @@ sass:
 
 # HTML Compression
 # - http://jch.penibelst.de/
-# compress_html:
-#   clippings               : all
-#   endings                 : all
-#   comments                : ["<!-- ", " -->"]
-#   blanklines              : true
-#   profile                 : false
-#   ignore:
-#   envs                    : [local]
+compress_html:
+  clippings               : all
+  endings                 : all
+  comments                : ["<!-- ", " -->"]
+  blanklines              : true
+  profile                 : false
+  ignore:
+  envs                    : [local]
