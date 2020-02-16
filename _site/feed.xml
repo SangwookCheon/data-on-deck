@@ -5,8 +5,8 @@
     <description>Interesting things</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 16 Feb 2020 13:37:40 +0700</pubDate>
-    <lastBuildDate>Sun, 16 Feb 2020 13:37:40 +0700</lastBuildDate>
+    <pubDate>Sun, 16 Feb 2020 19:06:35 +0700</pubDate>
+    <lastBuildDate>Sun, 16 Feb 2020 19:06:35 +0700</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
     
       <item>
@@ -14,6 +14,8 @@
         <description>&lt;p&gt;First, I want to change the way each article appears on the homepage. For pagination, I want each article’s title to have a black thin frame around it, as if it is enclosed in a comic box. Instead of using a picture and color masking, I want to create a uniform appearance. So, the general theme is Black and White - like a traditional newspaper.&lt;/p&gt;
 
 &lt;p&gt;Second, I want to make each article shown in the homepage display description under the title, not the whole article (with fading). Maybe fading is cool, so I will keep that.&lt;/p&gt;
+
+&lt;p&gt;&amp;lt;!–-break-–&amp;gt;&lt;/p&gt;
 
 &lt;p&gt;Third, I want to diversify the fonts used in the blog. For example, I want to change the font for the title. Font for the article looks fine. I want headers to have the same font as title.&lt;/p&gt;
 
@@ -33,9 +35,11 @@
       <item>
         <title>Adding Latitude and Longitude given a location using Geocoder library</title>
         <description>&lt;h1 id=&quot;about-geocoder&quot;&gt;About Geocoder&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&quot;https://geocoder.readthedocs.io/&quot;&gt;Geocoder&lt;/a&gt; is a python library that enables us to get Latitude and Longitude value given an address anywhere in the world. I will work with the cleaned dataset I created with Beautiful soup from this &lt;a href=&quot;https://sangwookcheon.github.io/2019/07/12/web-scraping-using-beautiful-soup/&quot;&gt;article&lt;/a&gt;. I will Latitude and Longitude coordinates to each Postal Code.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://geocoder.readthedocs.io/&quot;&gt;Geocoder&lt;/a&gt; is a python library that enables us to get Latitude and Longitude value given an address anywhere in the world. I will work with the cleaned dataset I created with Beautiful soup from this &lt;a href=&quot;https://sangwookcheon.github.io/2019/07/12/web-scraping-using-beautiful-soup/&quot;&gt;article&lt;/a&gt;. I will add Latitude and Longitude coordinates to each Postal Code.&lt;/p&gt;
 
 &lt;p&gt;It is important to note that Geocoder library can sometimes be inconsistent, returning ‘None’ instead of coordinates. This library is free-of-charge, but you might want to use a more stable but paid service like &lt;a href=&quot;https://developers.google.com/maps/documentation/geocoding/start&quot;&gt;Google Geocoding API&lt;/a&gt;. For this task, using Geocoder library is enough.&lt;/p&gt;
+
+&lt;p&gt;&amp;lt;!–-break-–&amp;gt;&lt;/p&gt;
 
 &lt;p&gt;First let’s import Geocoder library and other tools:&lt;/p&gt;
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1

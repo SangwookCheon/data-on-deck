@@ -6,15 +6,15 @@ tags:
 description: >
   Howdy! This is an example blog post that shows several types of HTML content
   supported in this theme.
-hero: https://images.unsplash.com/photo-1516738901171-8eb4fc13bd20?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80
-overlay: blue
 published: true
 ---
 
 # About Geocoder
-[Geocoder](https://geocoder.readthedocs.io/) is a python library that enables us to get Latitude and Longitude value given an address anywhere in the world. I will work with the cleaned dataset I created with Beautiful soup from this [article](https://sangwookcheon.github.io/2019/07/12/web-scraping-using-beautiful-soup/). I will Latitude and Longitude coordinates to each Postal Code.
+[Geocoder](https://geocoder.readthedocs.io/) is a python library that enables us to get Latitude and Longitude value given an address anywhere in the world. I will work with the cleaned dataset I created with Beautiful soup from this [article](https://sangwookcheon.github.io/2019/07/12/web-scraping-using-beautiful-soup/). I will add Latitude and Longitude coordinates to each Postal Code.
 
 It is important to note that Geocoder library can sometimes be inconsistent, returning 'None' instead of coordinates. This library is free-of-charge, but you might want to use a more stable but paid service like [Google Geocoding API](https://developers.google.com/maps/documentation/geocoding/start). For this task, using Geocoder library is enough.
+
+<!–-break-–>
 
 First let's import Geocoder library and other tools:
 ```python

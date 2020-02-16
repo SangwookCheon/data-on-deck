@@ -14,6 +14,8 @@ First, I want to change the way each article appears on the homepage. For pagina
 
 Second, I want to make each article shown in the homepage display description under the title, not the whole article (with fading). Maybe fading is cool, so I will keep that.
 
+<!–-break-–>
+
 Third, I want to diversify the fonts used in the blog. For example, I want to change the font for the title. Font for the article looks fine. I want headers to have the same font as title.
 
 Fourth, I want to change the link style for title of articles.
