@@ -1,6 +1,8 @@
 // Base
 //-------------------------------
 
+$highlight_color: #2edd1f;
+
 *,
 *::before,
 *::after {
@@ -8,7 +10,7 @@
 }
 ::selection {
   color: var(--bg-color);
-  background-color: var(--text-color);
+  background-color: $highlight_color;
 }
 
 body {
@@ -45,11 +47,11 @@ a, .a {
   text-decoration: none;
   position: relative;
   border-bottom: 0.18rem solid transparent;
-  transition: border 0.15s;
+  transition: opacity 0.05s;
 
     &:hover, &:focus {
       text-decoration: none;
-      border-bottom: 0.15em solid;
+      opacity: 70%;
     }
     strong {
       color: inherit;
