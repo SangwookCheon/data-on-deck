@@ -4,8 +4,9 @@ baseurl                      : "" # the subpath of your site,                   
 url                          : "" # the base hostname & protocol for your site
                                   # `http://<username>.github.io` - for GitHub
 
+
 blog:
-  title                      : OneTwentyTwo
+  title                      : Data On Deck
   description                  : Interesting things
 
 # Layout configuration
@@ -93,7 +94,7 @@ kramdown:
   # span, block element options fall back to global
   syntax_highlighter_opts:
     # Rouge Options › https://github.com/jneen/rouge#full-options
-    css_class: 'highlight'
+    # css_class: 'highlight'
     #line_numbers: true # bad idea, spans don't need linenos and would inherit this option
     span:
       line_numbers: false

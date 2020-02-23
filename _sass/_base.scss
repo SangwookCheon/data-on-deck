@@ -1,8 +1,6 @@
 // Base
 //-------------------------------
 
-$highlight_color: #2edd1f;
-
 *,
 *::before,
 *::after {
@@ -131,7 +129,8 @@ ul, ol, dl {
 hr {
   margin-bottom: 4em;
   max-width: 30%;
-  border: 0.1em solid var(--shadow-color);
+  border: 0.2em solid var(--shadow-color);
+  border-radius: 3px;
 }
 
 img {
