@@ -5,9 +5,77 @@
     <description>Interesting things</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 23 Feb 2020 21:56:43 +0700</pubDate>
-    <lastBuildDate>Sun, 23 Feb 2020 21:56:43 +0700</lastBuildDate>
+    <pubDate>Mon, 24 Feb 2020 13:50:26 +0700</pubDate>
+    <lastBuildDate>Mon, 24 Feb 2020 13:50:26 +0700</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>Paradox of Computers for People in Need</title>
+        <description>&lt;p&gt;“I have a little announcement,” I said.&lt;/p&gt;
+
+&lt;p&gt;It was a regular lunch meeting for my
+service club. I pulled out my MacBook,
+walked to the podium—an English
+classroom is our venue—and began
+talking.&lt;/p&gt;
+
+&lt;p&gt;“I am happy you had fun in AlHurriyah! If you couldn’t go, we all can
+revisit the school sometime. Sixty fifthgraders greeted us, and we checked if
+there is a vacant room for computers.”&lt;/p&gt;
+
+&lt;p&gt;&amp;lt;!–-break-–&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;“Sixty?” Some gasped in unison.&lt;/p&gt;
+
+&lt;p&gt;“Exactly. We can teach more than
+sixty, or even the whole school.
+Sugata Mitra’s ‘Hole in the Wall’
+experiment proved the power of a
+single computer.”&lt;/p&gt;
+
+&lt;p&gt;“But I want to share another story.
+Last week, there was a three-hour trip
+to a hilly village in Sentul. One girl I
+met is re-reading her old comic books
+because school is too far away.”&lt;/p&gt;
+
+&lt;p&gt;Our advisor raised his eyebrows. I
+took a breath and continued.&lt;/p&gt;
+
+&lt;p&gt;“Here’s the dilemma: five computers
+for ten out-of-school children in the
+village or five-hundred students in AlHurriyah. What’s better?”&lt;/p&gt;
+
+&lt;p&gt;Silence.&lt;/p&gt;
+
+&lt;p&gt;“Managing computers located threehours away would be hard, though.”
+one member commented.&lt;/p&gt;
+
+&lt;p&gt;“Definitely. But here’s a plan called
+‘Computer Drive.’ Like a delivery
+service…” I spoke for another ten
+minutes, but I knew I lost the
+audience.&lt;/p&gt;
+
+&lt;p&gt;The dilemma, in fact, left me clueless
+for days. After researching and
+thinking, I passionately supported the
+school-less children. Although it didn’t
+pass, it was a profound battle between
+many and few, far and near, and
+ultimately, my values and experiences
+of others.&lt;/p&gt;
+
+&lt;p&gt;Is this dilemma ever answerable?&lt;/p&gt;
+</description>
+        <pubDate>Sun, 23 Feb 2020 00:00:00 +0700</pubDate>
+        <link>http://localhost:4000/posts/plugged-in-paradox-of-computers</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/plugged-in-paradox-of-computers</guid>
+        
+        <category>howto</category>
+        
+        
+      </item>
     
       <item>
         <title>Design Changes I want to make to this Blog</title>

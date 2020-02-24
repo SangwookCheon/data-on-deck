@@ -93,9 +93,9 @@ figure, .figure {
     padding-right: .25rem;
     color: var(--metadata-color);
     // Make sure numbers aren't selectable
-    // -webkit-user-select: none;
-    //    -moz-user-select: none;
-    //         user-select: none;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+            user-select: none;
   }
 
   table {
