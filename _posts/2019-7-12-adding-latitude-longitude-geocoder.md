@@ -16,7 +16,8 @@ It is important to note that Geocoder library can sometimes be inconsistent, ret
 
 <!–-break-–>
 
-First let's import Geocoder library and other tools:
+First let's import Geocoder library and other tools: A
+
 ```python
 import geocoder
 import pandas as pd

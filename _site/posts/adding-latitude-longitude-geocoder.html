@@ -72,13 +72,14 @@
 <p><a href="https://geocoder.readthedocs.io/">Geocoder</a> is a python library that enables us to get Latitude and Longitude value given an address anywhere in the world. I will work with the cleaned dataset I created with Beautiful soup from this <a href="https://sangwookcheon.github.io/2019/07/12/web-scraping-using-beautiful-soup/">article</a>. I will add Latitude and Longitude coordinates to each Postal Code.
 <p>It is important to note that Geocoder library can sometimes be inconsistent, returning ‘None’ instead of coordinates. This library is free-of-charge, but you might want to use a more stable but paid service like <a href="https://developers.google.com/maps/documentation/geocoding/start">Google Geocoding API</a>. For this task, using Geocoder library is enough.
 <p>
-<p>First let’s import Geocoder library and other tools:
-<div class="language-python highlighter-rouge"><div class="highlight"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+<p>First let’s import Geocoder library and other tools: A
+
+<div class="language-python highlighter-rouge"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
 2</pre><td class="code"><pre><span class="kn">import</span> <span class="nn">geocoder</span>
 <span class="kn">import</span> <span class="nn">pandas</span> <span class="kn">as</span> <span class="nn">pd</span>
 </pre></table>
 </div>
-</div>
+
 <p>Here are the first 10 rows of my cleaned table. In total, there are 103 rows, meaning that there are 103 unique postal codes.
 <p>We first need to initialize lat-long coordinates to be an empty list, which will be filled for each postal code and added to the table. We also need to get postal codes from the table.
 <p>I stored the clean data table as <code class="highlighter-rouge">data</code> by using <code class="highlighter-rouge">read_csv</code> function of Pandas.
@@ -170,4 +171,3 @@
        </div>
 <script type="text/javascript" src="/assets/js/theme.js"></script>
 <script type="text/javascript" src="/assets/js/barefoot.js"></script>
-    

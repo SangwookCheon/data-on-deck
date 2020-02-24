@@ -5,8 +5,8 @@
     <description>Interesting things</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 24 Feb 2020 13:50:26 +0700</pubDate>
-    <lastBuildDate>Mon, 24 Feb 2020 13:50:26 +0700</lastBuildDate>
+    <pubDate>Mon, 24 Feb 2020 17:51:24 +0700</pubDate>
+    <lastBuildDate>Mon, 24 Feb 2020 17:51:24 +0700</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
     
       <item>
@@ -109,7 +109,8 @@ of others.&lt;/p&gt;
 
 &lt;p&gt;&amp;lt;!–-break-–&amp;gt;&lt;/p&gt;
 
-&lt;p&gt;First let’s import Geocoder library and other tools:&lt;/p&gt;
+&lt;p&gt;First let’s import Geocoder library and other tools: A&lt;/p&gt;
+
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
 2&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;geocoder&lt;/span&gt;
 &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pandas&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pd&lt;/span&gt;
