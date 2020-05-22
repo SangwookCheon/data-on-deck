@@ -1,13 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Data On Deck</title>
+    <title>Wook's Lab</title>
     <description>Interesting things</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 24 Feb 2020 18:26:05 +0700</pubDate>
-    <lastBuildDate>Mon, 24 Feb 2020 18:26:05 +0700</lastBuildDate>
+    <pubDate>Fri, 22 May 2020 22:30:47 +0900</pubDate>
+    <lastBuildDate>Fri, 22 May 2020 22:30:47 +0900</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>Reflecting on the</title>
+        <description>
+</description>
+        <pubDate>Fri, 08 May 2020 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/posts/jis-leadweek-reflection</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/jis-leadweek-reflection</guid>
+        
+        <category>jis</category>
+        
+        
+      </item>
     
       <item>
         <title>Paradox of Computers for People in Need</title>
@@ -68,7 +81,7 @@ of others.&lt;/p&gt;
 
 &lt;p&gt;Is this dilemma ever answerable?&lt;/p&gt;
 </description>
-        <pubDate>Sun, 23 Feb 2020 00:00:00 +0700</pubDate>
+        <pubDate>Sun, 23 Feb 2020 00:00:00 +0900</pubDate>
         <link>http://localhost:4000/posts/plugged-in-paradox-of-computers</link>
         <guid isPermaLink="true">http://localhost:4000/posts/plugged-in-paradox-of-computers</guid>
         
@@ -91,7 +104,7 @@ of others.&lt;/p&gt;
 
 &lt;p&gt;Fifth, on the “Light” page, I want to showcase one thing at the top, like a drawing, interactive, p5.js project, etc.&lt;/p&gt;
 </description>
-        <pubDate>Sat, 15 Feb 2020 00:00:00 +0700</pubDate>
+        <pubDate>Sat, 15 Feb 2020 00:00:00 +0900</pubDate>
         <link>http://localhost:4000/posts/blog-design-changes</link>
         <guid isPermaLink="true">http://localhost:4000/posts/blog-design-changes</guid>
         
@@ -109,7 +122,7 @@ of others.&lt;/p&gt;
 
 &lt;p&gt;&amp;lt;!–-break-–&amp;gt;&lt;/p&gt;
 
-&lt;p&gt;First let’s import Geocoder library and other tools: B&lt;/p&gt;
+&lt;p&gt;First let’s import Geocoder library and other tools:&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
 2&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;geocoder&lt;/span&gt;
@@ -176,7 +189,7 @@ of others.&lt;/p&gt;
 
 &lt;p&gt;You can also learn about Foursquare API, a map-related API with many social features, by referring to &lt;a href=&quot;https://github.com/SangwookCheon/non-e-stop-python-data-science/blob/master/Machine-Learning/Example%20Projects/IBM%20Capstone%20Project/foursquare_api_exploration.ipynb&quot;&gt;this notebook&lt;/a&gt;.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 12 Jul 2019 00:00:00 +0700</pubDate>
+        <pubDate>Fri, 12 Jul 2019 00:00:00 +0900</pubDate>
         <link>http://localhost:4000/posts/adding-latitude-longitude-geocoder</link>
         <guid isPermaLink="true">http://localhost:4000/posts/adding-latitude-longitude-geocoder</guid>
         
