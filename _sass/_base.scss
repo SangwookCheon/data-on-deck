@@ -129,7 +129,8 @@ ul, ol, dl {
 hr {
   margin-bottom: 4em;
   max-width: 30%;
-  border: 0.2em solid var(--shadow-color);
+  border: 0.2em solid;
+  color: rgb(226, 226, 226);
   border-radius: 3px;
 }
 

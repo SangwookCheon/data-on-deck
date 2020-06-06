@@ -3,6 +3,7 @@ layout: post
 title: Design Changes I want to make to this Blog
 tags:
   - howto
+  - learn
 description:
   This is a description of the article.
 published: true
