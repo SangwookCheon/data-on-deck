@@ -73,54 +73,13 @@
 <p>It is important to note that Geocoder library can sometimes be inconsistent, returning ‘None’ instead of coordinates. This library is free-of-charge, but you might want to use a more stable but paid service like <a href="https://developers.google.com/maps/documentation/geocoding/start">Google Geocoding API</a>. For this task, using Geocoder library is enough.
 <p>
 <p>First let’s import Geocoder library and other tools:
-<div class="language-python highlighter-rouge"><div class="highlight"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
-2</pre><td class="code"><pre><span class="kn">import</span> <span class="nn">geocoder</span>
-<span class="kn">import</span> <span class="nn">pandas</span> <span class="kn">as</span> <span class="nn">pd</span>
-</pre></table>
-</div>
-</div>
+<script src="https://gist.github.com/SangwookCheon/dd89e8d990f12f57405e4564915d7209.js"></script>
 <p>Here are the first 10 rows of my cleaned table. In total, there are 103 rows, meaning that there are 103 unique postal codes.
 <p>We first need to initialize lat-long coordinates to be an empty list, which will be filled for each postal code and added to the table. We also need to get postal codes from the table.
 <p>I stored the clean data table as <code class="highlighter-rouge">data</code> by using <code class="highlighter-rouge">read_csv</code> function of Pandas.
-<div class="language-python highlighter-rouge"><div class="highlight"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
-2
-3</pre><td class="code"><pre><span class="c"># initialize variable to None</span>
-<span class="n">lat_lng_coords</span> <span class="o">=</span> <span class="bp">None</span>
-<span class="n">postal_codes</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s">'PostalCode'</span><span class="p">]</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span>
-</pre></table>
-</div>
-</div>
+<script src="https://gist.github.com/SangwookCheon/7b452c32af64bd176e26ac140b99f4e4.js"></script>
 <p>Now is the part where I loop until coordinates are derived from the <code class="highlighter-rouge">geocoder.google</code> function, and then add it to the original table.
-<div class="language-python highlighter-rouge"><div class="highlight"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14</pre><td class="code"><pre><span class="c"># loop until we get the coordinates</span>
-<span class="k">for</span> <span class="n">index</span><span class="p">,</span> <span class="n">code</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">postal_codes</span><span class="p">):</span>
-    <span class="k">while</span><span class="p">(</span><span class="n">lat_lng_coords</span> <span class="ow">is</span> <span class="bp">None</span><span class="p">):</span>
-        <span class="n">g</span> <span class="o">=</span> <span class="n">geocoder</span><span class="o">.</span><span class="n">google</span><span class="p">(</span><span class="s">'{}, Toronto, Ontario'</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">code</span><span class="p">))</span>
-        <span class="n">lat_lng_coords</span> <span class="o">=</span> <span class="n">g</span><span class="o">.</span><span class="n">latlng</span>
-        <span class="k">print</span><span class="p">(</span><span class="n">lat_lng_coords</span><span class="p">)</span>
-
-    <span class="n">latitude</span> <span class="o">=</span> <span class="n">lat_lng_coords</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
-    <span class="n">longitude</span> <span class="o">=</span> <span class="n">lat_lng_coords</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
-    <span class="n">data</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">index</span><span class="p">,</span> <span class="s">'Latitude'</span><span class="p">]</span> <span class="o">=</span> <span class="n">latitude</span>
-    <span class="n">data</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">index</span><span class="p">,</span> <span class="s">'Longitude'</span><span class="p">]</span> <span class="o">=</span> <span class="n">longitude</span>
-
-    <span class="c">#Re-initialize the variable.</span>
-    <span class="n">lat_lng_coords</span> <span class="o">=</span> <span class="bp">None</span>
-</pre></table>
-</div>
-</div>
+<script src="https://gist.github.com/SangwookCheon/749be59c9d2cfe279494ab29e198e144.js"></script>
 <p>Doing this might take some time, because there is loading time when getting coordinates. When finished, now there is an updated table with two new columns, named <code class="highlighter-rouge">latitude</code> and <code class="highlighter-rouge">longitude</code>, as shown below:
 <img src="/in-post-images/Screen Shot 2019-07-13 at 11.45.23.png" alt="" />
 <h1 id="recap">Recap</h1>

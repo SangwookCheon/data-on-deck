@@ -16,42 +16,22 @@ It is important to note that Geocoder library can sometimes be inconsistent, ret
 
 <!–-break-–>
 
-First let's import Geocoder library and other tools: 
+First let's import Geocoder library and other tools:
 
-```python
-import geocoder
-import pandas as pd
-```
+<script src="https://gist.github.com/SangwookCheon/dd89e8d990f12f57405e4564915d7209.js"></script>
 
 Here are the first 10 rows of my cleaned table. In total, there are 103 rows, meaning that there are 103 unique postal codes.
 
 We first need to initialize lat-long coordinates to be an empty list, which will be filled for each postal code and added to the table. We also need to get postal codes from the table.
 
 I stored the clean data table as `data` by using `read_csv` function of Pandas.
-```python
-# initialize variable to None
-lat_lng_coords = None
-postal_codes = data['PostalCode'].tolist()
-```
+
+<script src="https://gist.github.com/SangwookCheon/7b452c32af64bd176e26ac140b99f4e4.js"></script>
 
 Now is the part where I loop until coordinates are derived from the `geocoder.google` function, and then add it to the original table.
 
-```python
-# loop until we get the coordinates
-for index, code in enumerate(postal_codes):
-    while(lat_lng_coords is None):
-        g = geocoder.google('{}, Toronto, Ontario'.format(code))
-        lat_lng_coords = g.latlng
-        print(lat_lng_coords)
+<script src="https://gist.github.com/SangwookCheon/749be59c9d2cfe279494ab29e198e144.js"></script>
 
-    latitude = lat_lng_coords[0]
-    longitude = lat_lng_coords[1]
-    data.loc[index, 'Latitude'] = latitude
-    data.loc[index, 'Longitude'] = longitude
-
-    #Re-initialize the variable.
-    lat_lng_coords = None
-```
 Doing this might take some time, because there is loading time when getting coordinates. When finished, now there is an updated table with two new columns, named `latitude` and `longitude`, as shown below:
 ![](/in-post-images/Screen Shot 2019-07-13 at 11.45.23.png)
 

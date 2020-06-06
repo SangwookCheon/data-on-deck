@@ -50,3 +50,5 @@ Then, inside the file, input the following format:
 
 # Code Syntax
 As of now, there's a problem with Code Syntax. The UI crashes when published to GitHub, while it works locally. So, I need to create a better version or use an external tool for code blocks.
+
+Until this is fixed, let's just use GitHub gists. They are a little bit tedious to create, but they work really well.
