@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+       <meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+<title>Everything related to maintaining this Blog - Nuts and Bolts &#9642; Wook's Lab</title>
+<!--
+<meta name="description" content="This is not an article. I am simply building a catalog of notes that are useful when updating this blog. Because the entire code has to be altered, it is useful to include some technical details. I forget details too often.
+Last Updated: June 6th, 2020
+">
+-->
+<meta name="description" content="Interesting things">
+<meta name="keywords" content="howto">
+<link rel="canonical" href="http://localhost:4000/posts/all-blog-related-info">
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Everything related to maintaining this Blog - Nuts and Bolts" />
+<meta name="twitter:description" content="Interesting things" />
+<meta name="twitter:image" content="http://localhost:4000" />
+<meta name="author" content="">
+<link rel="author" href="">
+<meta property="og:locale" content="">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Everything related to maintaining this Blog - Nuts and Bolts">
+<meta property="og:description" content="Interesting things">
+<meta property="og:url" content="http://localhost:4000/posts/all-blog-related-info">
+<meta property="og:site_name" content="Wook's Lab">
+<link rel="stylesheet" href="/assets/vendor/normalize-css/normalize.css">
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gelasio|Rubik:400,400i,700,700i">
+<style>
+    html {
+      font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+    }
+</style>
+<link rel="stylesheet" href="/assets/css/bf.css">
+   <body>
+       <div class="wrapper" id="blep">
+          <header>
+   <div class="menu">
+     <div class="logo">
+        <a style="" class="unselectable" href="/">Wook's Lab</a>
+        <object type="image/svg+xml" data="/assets/img/smiley4.svg" class="logosvg unselectable">No SVG</object>
+     </div>
+       <ul class="unselectable">
+           <li><a href="/heavy">heavy</a>
+           <li><a href="/light">light</a>
+           <li><a href="/interactive">moving</a>
+           <li><a href="/archive">archive</a>
+       </ul>
+   </div>
+</header>
+<article class="post">
+ <div class="post-title-container
+  no-hero-margin
+  ">
+    <!--Post hero image source-->
+   <div class="heading-container ">
+     <h1>
+          Everything related to maintaining this Blog - Nuts and Bolts
+     </h1>
+     <div class="post-meta">
+        <span>27/06/2019</span>
+        <span>
+              <a href="/tag/howto">#howto</a>
+        </span>
+     </div>
+   </div>
+ </div>
+   <p>This is not an article. I am simply building a catalog of notes that are useful when updating this blog. Because the entire code has to be altered, it is useful to include some technical details. I forget details too often.
+<p><em>Last Updated: June 6th, 2020</em>
+<p>
+<p><strong>Important Update:</strong> The length of the article must be quite long for the tags to be clickable, on the blog page.
+<h1 id="how-to-build-the-site">How to Build the Site</h1>
+<p>Building the site with jekyll is done everytime I want to see the changes I made to the blog.
+Every time I open the project, I must first export the ‘gems’ that are located in my local machine:
+<p>First, run
+<code class="highlighter-rouge">export GEM_HOME=~/.gem</code>
+<p>Then, run
+<code class="highlighter-rouge">export PATH=$HOME/.gem/ruby/2.6.0/bin:$PATH</code>
+<p>This is personal to my local machine, so it must be different for other users.
+<p>Now, build/update the website by running <code class="highlighter-rouge">bundle exec jekyll serve</code>. Then, the ‘_sites’ folder must be updated, and it is ready to be uploaded to GitHub.
+<h1 id="how-to-put-a-break-to-an-article">How to put a break to an Article</h1>
+<p>Include <code class="highlighter-rouge">&lt;!--break--&gt;</code> to create a break in the article.
+<h1 id="how-to-create-a-tag">How to Create a Tag</h1>
+<p>This is a simple process. I used to create a separate ‘permalink’ for each and every tag, but for this blog, I just need to create an <code class="highlighter-rouge">.md</code> file.
+<p>Under the <code class="highlighter-rouge">_my_tags</code> folder, create an <code class="highlighter-rouge">.md</code> file with the name of the tag.
+Then, inside the file, input the following format:
+<div class="highlighter-rouge"><div class="highlight"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5</pre><td class="code"><pre>  ---
+  slug: name (all lowercase)
+  name: name (this appears in the tag page)
+  description: optional
+  ---
+</pre></table>
+</div>
+</div>
+<h1 id="code-syntax">Code Syntax</h1>
+<p>As of now, there’s a problem with Code Syntax. The UI crashes when published to GitHub, while it works locally. So, I need to create a better version or use an external tool for code blocks.
+</article>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'data-on-deck';
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+<aside class="related">
+<h2>Related posts</h2>
+<ul class="related-posts">
+</aside>
+           <footer>
+    <span>Interesting things</span>
+    <span>written by Sangwook Cheon</span>
+    <br>
+    <span><a href="/about">About Me</a></span>
+   <div class="social">
+     <ul>
+       <li>
+            <a href="https://github.com/sangwookcheon" target="_blank" class="smaller">
+              <span class="icon-github"></span>
+            </a>
+       <li>
+            <a href="mailto:45622@jisedu.or.id" target="_blank">
+              <span class="icon-mail_outline"></span>
+            </a>
+       <li>
+            <a href="/feed.xml" target="_blank">
+                <span class="icon-rss_feed"></span>
+            </a>
+     </ul>
+   </div>
+</footer>
+       </div>
+<script type="text/javascript" src="/assets/js/theme.js"></script>
+<script type="text/javascript" src="/assets/js/barefoot.js"></script>
+    

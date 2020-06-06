@@ -2,8 +2,8 @@
 layout: post
 title: Paradox of Computers for People in Need
 tags:
-  - howto
   - jis
+  - reflection
 description:
   This is a description of the article.
 published: true
