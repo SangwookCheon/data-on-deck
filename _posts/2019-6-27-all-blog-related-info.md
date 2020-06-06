@@ -40,13 +40,7 @@ This is a simple process. I used to create a separate 'permalink' for each and e
 Under the `_my_tags` folder, create an `.md` file with the name of the tag.
 Then, inside the file, input the following format:
 
-```
-  ---
-  slug: name (all lowercase)
-  name: name (this appears in the tag page)
-  description: optional
-  ---
-```
+<script src="https://gist.github.com/SangwookCheon/c56017d6abc92980193b3f4e479fc941.js"></script>
 
 # Code Syntax
 As of now, there's a problem with Code Syntax. The UI crashes when published to GitHub, while it works locally. So, I need to create a better version or use an external tool for code blocks.
