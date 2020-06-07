@@ -6,8 +6,8 @@ url                          : "" # the base hostname & protocol for your site
 
 
 blog:
-  title                      : Wook's Lab
-  description                  : 
+  title                      : Smiley Lab
+  description                  :
 
 # Layout configuration
   logo_path                  : "assets/img/smiley4.svg" # path to logo file
