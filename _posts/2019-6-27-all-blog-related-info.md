@@ -46,3 +46,8 @@ Then, inside the file, input the following format:
 As of now, there's a problem with Code Syntax. The UI crashes when published to GitHub, while it works locally. So, I need to create a better version or use an external tool for code blocks.
 
 Until this is fixed, let's just use GitHub gists. They are a little bit tedious to create, but they work really well.
+
+# Problems I need to Fix
+* On a mobile phone, the title of an article is too big when I click on the link to that page. I must make the font size adapt to screen size
+* I want to make a search function that instnatly shows results, like the TeXT theme.
+* I need to enable pagination for the "creatives" tab. Currently, it's not working.

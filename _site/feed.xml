@@ -5,9 +5,50 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 07 Jun 2020 16:02:25 +0900</pubDate>
-    <lastBuildDate>Sun, 07 Jun 2020 16:02:25 +0900</lastBuildDate>
+    <pubDate>Mon, 08 Jun 2020 16:37:11 +0900</pubDate>
+    <lastBuildDate>Mon, 08 Jun 2020 16:37:11 +0900</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>About Interconnectedness of the World - Grade 9 Assignment</title>
+        <description>&lt;p&gt;&lt;img src=&quot;../snippets/2020-6-8-about-interconnectedness.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 08 Jun 2020 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/posts/about-interconnectedness</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/about-interconnectedness</guid>
+        
+        <category>creatives</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Philosophical and Ethical Thoughts on the Human Genome Project</title>
+        <description>&lt;p&gt;What are the thoughts on the Human Genome Project?&lt;/p&gt;
+</description>
+        <pubDate>Mon, 08 Jun 2020 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/posts/philosophical-ethical-implications-human-genome-project</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/philosophical-ethical-implications-human-genome-project</guid>
+        
+        <category>summary</category>
+        
+        <category>research</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>About Boredom</title>
+        <description>&lt;p&gt;&lt;img src=&quot;../snippets/2020-06-06-boredom.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 07 Jun 2020 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/posts/about-boredom</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/about-boredom</guid>
+        
+        <category>creatives</category>
+        
+        
+      </item>
     
       <item>
         <title>What is the Human Genome Project?</title>
@@ -184,6 +225,13 @@ Then, inside the file, input the following format:&lt;/p&gt;
 &lt;p&gt;As of now, there’s a problem with Code Syntax. The UI crashes when published to GitHub, while it works locally. So, I need to create a better version or use an external tool for code blocks.&lt;/p&gt;
 
 &lt;p&gt;Until this is fixed, let’s just use GitHub gists. They are a little bit tedious to create, but they work really well.&lt;/p&gt;
+
+&lt;h1 id=&quot;problems-i-need-to-fix&quot;&gt;Problems I need to Fix&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;On a mobile phone, the title of an article is too big when I click on the link to that page. I must make the font size adapt to screen size&lt;/li&gt;
+  &lt;li&gt;I want to make a search function that instnatly shows results, like the TeXT theme.&lt;/li&gt;
+  &lt;li&gt;I need to enable pagination for the “creatives” tab. Currently, it’s not working.&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         <pubDate>Thu, 27 Jun 2019 00:00:00 +0900</pubDate>
         <link>http://localhost:4000/posts/all-blog-related-info</link>

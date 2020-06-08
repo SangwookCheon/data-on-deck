@@ -1,0 +1,16 @@
+---
+layout: default
+title: "Creatives"
+---
+
+{% for post in site.posts %}
+
+{% if post.tags contains "creatives" %}
+
+{% include blog.html %}
+
+{% endif %}
+
+{% endfor %}
+
+{% include post/pagination.html %}

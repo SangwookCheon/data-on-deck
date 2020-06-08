@@ -4,12 +4,12 @@
     <li class="pagination-item-prev" >
           {% if paginator.previous_page %}
       {% if paginator.page == 2 %}
-            <a rel="prev" href="{{ site.baseurl }}/">&laquo; Prev</a>
+            <a rel="prev" href="{{ site.baseurl }}/">&laquo; Previous</a>
         {% else %}
-        <a rel="prev" href="{{ site.baseurl }}/page-{{paginator.previous_page}}/">&laquo; Prev</a>
+        <a rel="prev" href="{{ site.baseurl }}/page-{{paginator.previous_page}}/">&laquo; Previous</a>
         {% endif %}
       {% else %}
-      <span>&laquo; Prev</span>
+      <span>&laquo; Previous</span>
           {% endif %}
     </li>
 
