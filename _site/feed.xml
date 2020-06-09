@@ -5,9 +5,22 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 09 Jun 2020 12:16:13 +0900</pubDate>
-    <lastBuildDate>Tue, 09 Jun 2020 12:16:13 +0900</lastBuildDate>
+    <pubDate>Tue, 09 Jun 2020 13:22:21 +0900</pubDate>
+    <lastBuildDate>Tue, 09 Jun 2020 13:22:21 +0900</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>Paper Money and Pennies. And Aliens.</title>
+        <description>&lt;p&gt;&lt;img src=&quot;../snippets/2020-6-9-money-and-pennies.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 09 Jun 2020 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/posts/paper-money-and-pennies</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/paper-money-and-pennies</guid>
+        
+        <category>creatives</category>
+        
+        
+      </item>
     
       <item>
         <title>About Interconnectedness of the World - Grade 9 Assignment</title>
