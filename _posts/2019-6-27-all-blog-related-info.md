@@ -47,6 +47,12 @@ As of now, there's a problem with Code Syntax. The UI crashes when published to 
 
 Until this is fixed, let's just use GitHub gists. They are a little bit tedious to create, but they work really well.
 
+# If I want to exclude Pictures and Snippets from the Main Blog Page
+
+In the `blog.html` layout, include the following snippet of code:
+
+<script src="https://gist.github.com/SangwookCheon/77cafb84c4d4d28101da67b1dca64d60.js"></script>
+
 # Problems I need to Fix
 * On a mobile phone, the title of an article is too big when I click on the link to that page. I must make the font size adapt to screen size
 * I want to make a search function that instnatly shows results, like the TeXT theme.

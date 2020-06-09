@@ -5,8 +5,8 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 09 Jun 2020 13:22:21 +0900</pubDate>
-    <lastBuildDate>Tue, 09 Jun 2020 13:22:21 +0900</lastBuildDate>
+    <pubDate>Tue, 09 Jun 2020 20:59:59 +0900</pubDate>
+    <lastBuildDate>Tue, 09 Jun 2020 20:59:59 +0900</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
     
       <item>
@@ -270,6 +270,12 @@ Then, inside the file, input the following format:&lt;/p&gt;
 &lt;p&gt;As of now, there’s a problem with Code Syntax. The UI crashes when published to GitHub, while it works locally. So, I need to create a better version or use an external tool for code blocks.&lt;/p&gt;
 
 &lt;p&gt;Until this is fixed, let’s just use GitHub gists. They are a little bit tedious to create, but they work really well.&lt;/p&gt;
+
+&lt;h1 id=&quot;if-i-want-to-exclude-pictures-and-snippets-from-the-main-blog-page&quot;&gt;If I want to exclude Pictures and Snippets from the Main Blog Page&lt;/h1&gt;
+
+&lt;p&gt;In the &lt;code class=&quot;highlighter-rouge&quot;&gt;blog.html&lt;/code&gt; layout, include the following snippet of code:&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/SangwookCheon/77cafb84c4d4d28101da67b1dca64d60.js&quot;&gt;&lt;/script&gt;
 
 &lt;h1 id=&quot;problems-i-need-to-fix&quot;&gt;Problems I need to Fix&lt;/h1&gt;
 &lt;ul&gt;
