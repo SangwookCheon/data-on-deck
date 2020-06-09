@@ -13,7 +13,7 @@ What is the first thing scientists did to tackle the rapidly-evolving COVID-19?�
 
 They decoded the virus. It is often known as "genomic sequencing." After China shared the first cases with the world in late December, scientists gathered to identify the full sequence of the coronavirus. Researchers from France, Korea, and other nations followed suit soon after. 
 
-<!–-break-–>
+<!--break-->
 
 Genomic sequencing works as a foundational blueprint for scientists. The sequence is used as a reference when developing diagnostic tests and determining potential treatments. 
 While the genomic sequence for COVID-19 quickly became a shared resource of the globe, such a process was more complicated a few decades ago, when the United States kickstarted an ambitious plan to decode a person. Yes, the "human" genome.

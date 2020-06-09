@@ -11,7 +11,7 @@ This is not an article. I am simply building a catalog of notes that are useful 
 
 *Last Updated: June 6th, 2020*
 
-<!–-break-–>
+<!--break-->
 
 **Important Update:** The length of the article must be quite long for the tags to be clickable, on the blog page.
 

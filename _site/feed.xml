@@ -5,8 +5,8 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 09 Jun 2020 20:59:59 +0900</pubDate>
-    <lastBuildDate>Tue, 09 Jun 2020 20:59:59 +0900</lastBuildDate>
+    <pubDate>Tue, 09 Jun 2020 22:53:26 +0900</pubDate>
+    <lastBuildDate>Tue, 09 Jun 2020 22:53:26 +0900</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
     
       <item>
@@ -16,6 +16,35 @@
         <pubDate>Tue, 09 Jun 2020 00:00:00 +0900</pubDate>
         <link>http://localhost:4000/posts/paper-money-and-pennies</link>
         <guid isPermaLink="true">http://localhost:4000/posts/paper-money-and-pennies</guid>
+        
+        <category>creatives</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Google Search Terms &quot;Fake&quot; vs. &quot;Fact&quot;</title>
+        <description>&lt;h1 id=&quot;special-article&quot;&gt;Special Article!&lt;/h1&gt;
+
+&lt;p&gt;This is a very long drawing, so please click on the link to view this image!&lt;/p&gt;
+
+&lt;p&gt;As much long it is, I am excited to show this to you. It uses Google Trends to see the popularity of two words over time.&lt;/p&gt;
+
+&lt;!--break--&gt;
+
+&lt;p&gt;&lt;img src=&quot;../snippets/2020-6-9-fake-vs-fact-2016-drawing.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Tinker with the data by yourself:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://trends.google.com/trends/explore?date=today%205-y&amp;amp;geo=US&amp;amp;q=fact,fake&quot;&gt;Link to the Comparison of “Fake” and “Fact” trends, in the US.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;You can easily change the search terms or remove one to suit your needs!&lt;/p&gt;
+
+&lt;p&gt;Thank you for reading this article.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 09 Jun 2020 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/posts/fake-vs-fact-2016</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/fake-vs-fact-2016</guid>
         
         <category>creatives</category>
         
@@ -69,7 +98,7 @@
 
 &lt;p&gt;They decoded the virus. It is often known as “genomic sequencing.” After China shared the first cases with the world in late December, scientists gathered to identify the full sequence of the coronavirus. Researchers from France, Korea, and other nations followed suit soon after. &lt;/p&gt;
 
-&lt;p&gt;&amp;lt;!–-break-–&amp;gt;&lt;/p&gt;
+&lt;!--break--&gt;
 
 &lt;p&gt;Genomic sequencing works as a foundational blueprint for scientists. The sequence is used as a reference when developing diagnostic tests and determining potential treatments. 
 While the genomic sequence for COVID-19 quickly became a shared resource of the globe, such a process was more complicated a few decades ago, when the United States kickstarted an ambitious plan to decode a person. Yes, the “human” genome.&lt;/p&gt;
@@ -127,7 +156,7 @@ talking.&lt;/p&gt;
 revisit the school sometime. Sixty fifthgraders greeted us, and we checked if
 there is a vacant room for computers.”&lt;/p&gt;
 
-&lt;p&gt;&amp;lt;!–-break-–&amp;gt;&lt;/p&gt;
+&lt;!--break--&gt;
 
 &lt;p&gt;“Sixty?” Some gasped in unison.&lt;/p&gt;
 
@@ -190,7 +219,7 @@ of others.&lt;/p&gt;
 
 &lt;p&gt;It is important to note that Geocoder library can sometimes be inconsistent, returning ‘None’ instead of coordinates. This library is free-of-charge, but you might want to use a more stable but paid service like &lt;a href=&quot;https://developers.google.com/maps/documentation/geocoding/start&quot;&gt;Google Geocoding API&lt;/a&gt;. For this task, using Geocoder library is enough.&lt;/p&gt;
 
-&lt;p&gt;&amp;lt;!–-break-–&amp;gt;&lt;/p&gt;
+&lt;!--break--&gt;
 
 &lt;p&gt;First let’s import Geocoder library and other tools:&lt;/p&gt;
 
@@ -235,7 +264,7 @@ of others.&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Last Updated: June 6th, 2020&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&amp;lt;!–-break-–&amp;gt;&lt;/p&gt;
+&lt;!--break--&gt;
 
 &lt;p&gt;&lt;strong&gt;Important Update:&lt;/strong&gt; The length of the article must be quite long for the tags to be clickable, on the blog page.&lt;/p&gt;
 

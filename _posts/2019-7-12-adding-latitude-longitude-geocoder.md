@@ -14,7 +14,7 @@ published: true
 
 It is important to note that Geocoder library can sometimes be inconsistent, returning 'None' instead of coordinates. This library is free-of-charge, but you might want to use a more stable but paid service like [Google Geocoding API](https://developers.google.com/maps/documentation/geocoding/start). For this task, using Geocoder library is enough.
 
-<!–-break-–>
+<!--break-->
 
 First let's import Geocoder library and other tools:
 

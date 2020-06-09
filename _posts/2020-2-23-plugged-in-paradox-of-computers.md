@@ -21,7 +21,7 @@ talking.
 revisit the school sometime. Sixty fifthgraders greeted us, and we checked if
 there is a vacant room for computers."
 
-<!–-break-–>
+<!--break-->
 
 "Sixty?" Some gasped in unison.
 
