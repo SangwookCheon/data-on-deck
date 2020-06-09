@@ -5,8 +5,8 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 08 Jun 2020 16:37:11 +0900</pubDate>
-    <lastBuildDate>Mon, 08 Jun 2020 16:37:11 +0900</lastBuildDate>
+    <pubDate>Tue, 09 Jun 2020 12:16:13 +0900</pubDate>
+    <lastBuildDate>Tue, 09 Jun 2020 12:16:13 +0900</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
     
       <item>
@@ -52,10 +52,42 @@
     
       <item>
         <title>What is the Human Genome Project?</title>
-        <description>&lt;p&gt;What is the Human Genome Project?&lt;/p&gt;
+        <description>&lt;p&gt;What is the first thing scientists did to tackle the rapidly-evolving COVID-19? &lt;/p&gt;
 
-&lt;script src=&quot;https://gist.github.com/SangwookCheon/95f1caf1453c3de3ac3fcfd529b2a4a6.js&quot;&gt;&lt;/script&gt;
+&lt;p&gt;They decoded the virus. It is often known as “genomic sequencing.” After China shared the first cases with the world in late December, scientists gathered to identify the full sequence of the coronavirus. Researchers from France, Korea, and other nations followed suit soon after. &lt;/p&gt;
 
+&lt;p&gt;&amp;lt;!–-break-–&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;Genomic sequencing works as a foundational blueprint for scientists. The sequence is used as a reference when developing diagnostic tests and determining potential treatments. 
+While the genomic sequence for COVID-19 quickly became a shared resource of the globe, such a process was more complicated a few decades ago, when the United States kickstarted an ambitious plan to decode a person. Yes, the “human” genome.&lt;/p&gt;
+
+&lt;p&gt;It is worthwhile to revisit the history behind the project that pushed us into the grand “era of the genome.”&lt;/p&gt;
+
+&lt;p&gt;Following major technological advances in the 1970s, the notion of decoding a human got more feasible for scientists. Some critics assumed that functions of genes cannot be ever studied through their sequence, but a combination of potential scientific merit and public interest pushed the idea forward.&lt;/p&gt;
+
+&lt;p&gt;Department of Energy (DOE) and National Institute of Health (NIH) launched the “Human Genome Project” on October 1st, 1990, with the rough completion year of 2005. At the time, they did not expect that they will finish two entire years in advance.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../post-images/D5ADBFBF-BB29-46B9-88A5-FA70A80FE9A1 1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Their big aim was to determine all genes and sequence nucleotides of the human genome, and also create databases to store information. But another important aspect was considering the philosophical and ethical issues, so roughly five percent of the budget was allocated towards this cause. Philosopher Eric T. Juengst was the director of this program. &lt;/p&gt;
+
+&lt;p&gt;Instead of sequencing the genome right away, the team built genetic and physical “maps” first. In essence, DNA clones were replicated for sequencing, and polymorphic markers were used to target specific “chromosomal regions.” Then, they tested genomic sequencing on smaller organisms before moving to the more complex human genome.&lt;/p&gt;
+
+&lt;p&gt;The task of sequencing the human genome stretched outside the US, where France and the United Kingdom funded their own research institutes. The Sanger Centre of the UK opened in 1993, which received support from the Wellcome Trust and Medical Research Council. Japan and China also jumped in soon after.&lt;/p&gt;
+
+&lt;p&gt;Besides, the team noticed a growing interest from the private sector in genome sequencing, such as the Celera Genomics. It proposed a distinctive way of sequencing, called the “whole-genome shotgun method,” which breaks the entire genome with high-frequency sound waves into many smaller pieces of DNA, sequence them, and reassemble the sequences with supercomputers by mapping the clones to chromosomes. &lt;/p&gt;
+
+&lt;p&gt;The public sector and Celera used different approaches, but they achieved the same result: sequencing roughly 3.2 billion base pairs. The US President Bill Clinton, DOE, and other scientists announced that the project has been completed in 2000, but the results actually had many gaps. Three years later, despite less public interest due to war and terrorism, the project officially came to a close.&lt;/p&gt;
+
+&lt;p&gt;Sequencing of the genome was truly an international effort. Six countries contributed 16 centers in total. Along the process, efficient methods of sequencing entire genomes were created and tested. Scientists were able to give partial credit to the initial assumption because the structure of the genome could provide limited insights into its function. Still, the project opened a new window of opportunities for the broad field of biology. &lt;/p&gt;
+
+&lt;p&gt;It is curious to see if the Human Genome Project has provided equal opportunities for all parts of the world. How has the project accelerated medicine development, and is there any aspect that is left behind? If the publicity of the genomic sequence spurred innovation, what are the policies of the beneficiaries of the modern world?&lt;/p&gt;
+
+&lt;p&gt;Before I dive into these questions, I will write about the role of the sub-group that worked on the philosophical and ethical implications of the project. I hope to look at the visions they created and how they compare with the current society.&lt;/p&gt;
+
+&lt;p&gt;The Research Paper Used:&lt;/p&gt;
+
+&lt;p&gt;Gannett, Lisa, “The Human Genome Project”, The Stanford Encyclopedia of Philosophy (Winter 2019 Edition), Edward N. Zalta (ed.).&lt;/p&gt;
 </description>
         <pubDate>Sat, 06 Jun 2020 00:00:00 +0900</pubDate>
         <link>http://localhost:4000/posts/what-is-human-genome-project</link>
