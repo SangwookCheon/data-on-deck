@@ -5,9 +5,47 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 09 Jun 2020 22:53:26 +0900</pubDate>
-    <lastBuildDate>Tue, 09 Jun 2020 22:53:26 +0900</lastBuildDate>
+    <pubDate>Mon, 15 Jun 2020 20:32:23 +0900</pubDate>
+    <lastBuildDate>Mon, 15 Jun 2020 20:32:23 +0900</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>Mr.Blue Sky covered by Jazz Frustrations</title>
+        <description>&lt;p&gt;A team of four musicians, including me, created a jazz version of Mr.Blue Sky, composed by the legendary Electric Light Orchestra.&lt;/p&gt;
+
+&lt;p&gt;We spent over a month recording ourselves at home and compiling videos! It was so much fun for me to sync the videos on Adobe Premier Pro and add more parts as necessary.&lt;/p&gt;
+
+&lt;p&gt;The project was finished on May 20th, and the video was showcased in our school’s last assembly of the year.&lt;/p&gt;
+
+&lt;p&gt;Please enjoy!&lt;/p&gt;
+
+&lt;iframe src=&quot;https://drive.google.com/file/d/1N0nwvssBpp4gJwAtQbCKuwrMj7YJtBE1/preview&quot; width=&quot;640&quot; height=&quot;480&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://drive.google.com/file/d/1N0nwvssBpp4gJwAtQbCKuwrMj7YJtBE1/view?usp=sharing&quot;&gt;The link to the video is here&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 15 Jun 2020 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/posts/music-with-friends</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/music-with-friends</guid>
+        
+        <category>creatives</category>
+        
+        <category>music</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Ideal Today and Actual Today</title>
+        <description>&lt;p&gt;&lt;img src=&quot;../snippets/2020-6-15-dream-and-today.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 15 Jun 2020 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/posts/dream-and-today</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/dream-and-today</guid>
+        
+        <category>creatives</category>
+        
+        
+      </item>
     
       <item>
         <title>Paper Money and Pennies. And Aliens.</title>
@@ -252,70 +290,6 @@ of others.&lt;/p&gt;
         <pubDate>Fri, 12 Jul 2019 00:00:00 +0900</pubDate>
         <link>http://localhost:4000/posts/adding-latitude-longitude-geocoder</link>
         <guid isPermaLink="true">http://localhost:4000/posts/adding-latitude-longitude-geocoder</guid>
-        
-        <category>howto</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Everything related to maintaining this Blog - Nuts and Bolts</title>
-        <description>&lt;p&gt;This is not an article. I am simply building a catalog of notes that are useful when updating this blog. Because the entire code has to be altered, it is useful to include some technical details. I forget details too often.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Last Updated: June 6th, 2020&lt;/em&gt;&lt;/p&gt;
-
-&lt;!--break--&gt;
-
-&lt;p&gt;&lt;strong&gt;Important Update:&lt;/strong&gt; The length of the article must be quite long for the tags to be clickable, on the blog page.&lt;/p&gt;
-
-&lt;h1 id=&quot;how-to-build-the-site&quot;&gt;How to Build the Site&lt;/h1&gt;
-&lt;p&gt;Building the site with jekyll is done everytime I want to see the changes I made to the blog.
-Every time I open the project, I must first export the ‘gems’ that are located in my local machine:&lt;/p&gt;
-
-&lt;p&gt;First, run
-&lt;code class=&quot;highlighter-rouge&quot;&gt;export GEM_HOME=~/.gem&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Then, run
-&lt;code class=&quot;highlighter-rouge&quot;&gt;export PATH=$HOME/.gem/ruby/2.6.0/bin:$PATH&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;This is personal to my local machine, so it must be different for other users.&lt;/p&gt;
-
-&lt;p&gt;Now, build/update the website by running &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec jekyll serve&lt;/code&gt;. Then, the ‘_sites’ folder must be updated, and it is ready to be uploaded to GitHub.&lt;/p&gt;
-
-&lt;h1 id=&quot;how-to-put-a-break-to-an-article&quot;&gt;How to put a break to an Article&lt;/h1&gt;
-
-&lt;p&gt;Include &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;!--break--&amp;gt;&lt;/code&gt; to create a break in the article.&lt;/p&gt;
-
-&lt;h1 id=&quot;how-to-create-a-tag&quot;&gt;How to Create a Tag&lt;/h1&gt;
-
-&lt;p&gt;This is a simple process. I used to create a separate ‘permalink’ for each and every tag, but for this blog, I just need to create an &lt;code class=&quot;highlighter-rouge&quot;&gt;.md&lt;/code&gt; file.&lt;/p&gt;
-
-&lt;p&gt;Under the &lt;code class=&quot;highlighter-rouge&quot;&gt;_my_tags&lt;/code&gt; folder, create an &lt;code class=&quot;highlighter-rouge&quot;&gt;.md&lt;/code&gt; file with the name of the tag.
-Then, inside the file, input the following format:&lt;/p&gt;
-
-&lt;script src=&quot;https://gist.github.com/SangwookCheon/c56017d6abc92980193b3f4e479fc941.js&quot;&gt;&lt;/script&gt;
-
-&lt;h1 id=&quot;code-syntax&quot;&gt;Code Syntax&lt;/h1&gt;
-&lt;p&gt;As of now, there’s a problem with Code Syntax. The UI crashes when published to GitHub, while it works locally. So, I need to create a better version or use an external tool for code blocks.&lt;/p&gt;
-
-&lt;p&gt;Until this is fixed, let’s just use GitHub gists. They are a little bit tedious to create, but they work really well.&lt;/p&gt;
-
-&lt;h1 id=&quot;if-i-want-to-exclude-pictures-and-snippets-from-the-main-blog-page&quot;&gt;If I want to exclude Pictures and Snippets from the Main Blog Page&lt;/h1&gt;
-
-&lt;p&gt;In the &lt;code class=&quot;highlighter-rouge&quot;&gt;blog.html&lt;/code&gt; layout, include the following snippet of code:&lt;/p&gt;
-
-&lt;script src=&quot;https://gist.github.com/SangwookCheon/77cafb84c4d4d28101da67b1dca64d60.js&quot;&gt;&lt;/script&gt;
-
-&lt;h1 id=&quot;problems-i-need-to-fix&quot;&gt;Problems I need to Fix&lt;/h1&gt;
-&lt;ul&gt;
-  &lt;li&gt;On a mobile phone, the title of an article is too big when I click on the link to that page. I must make the font size adapt to screen size&lt;/li&gt;
-  &lt;li&gt;I want to make a search function that instnatly shows results, like the TeXT theme.&lt;/li&gt;
-  &lt;li&gt;I need to enable pagination for the “creatives” tab. Currently, it’s not working.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 27 Jun 2019 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/posts/all-blog-related-info</link>
-        <guid isPermaLink="true">http://localhost:4000/posts/all-blog-related-info</guid>
         
         <category>howto</category>
         
