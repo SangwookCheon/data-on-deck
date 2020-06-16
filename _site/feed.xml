@@ -5,9 +5,53 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 15 Jun 2020 20:32:23 +0900</pubDate>
-    <lastBuildDate>Mon, 15 Jun 2020 20:32:23 +0900</lastBuildDate>
+    <pubDate>Tue, 16 Jun 2020 14:30:10 +0900</pubDate>
+    <lastBuildDate>Tue, 16 Jun 2020 14:30:10 +0900</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>Distractions in times of a Global Crisis</title>
+        <description>&lt;p&gt;A few months ago, I noticed that the New York Times changed a lot after the birth of COVID-19. Every day, it shared films that we can binge-watch at home, along with new recipes, books, and even video games. This “At Home” section stayed on the front page along with the regular serious articles.&lt;/p&gt;
+
+&lt;p&gt;It was strange to me how a newspaper emphasizes that “not losing your mind” is important, telling me that distractions are necessary right now. It surely felt human, but I did not buy that idea. I would rather “enrich my mind” by using the hours at home to do something meaningful. My school switched entirely to online learning until the end of this school year, and I was sure that there would be myriad ways to diversify my indoor life.&lt;/p&gt;
+
+&lt;!--break--&gt;
+
+&lt;p&gt;However, my goal to create meaning resulted in sitting in front of my computer all day long. Making music with my friends required a keyboard, GarageBand, and Adobe Premiere Pro. Working on Data Science projects meant researching online and crunching data with Atom. Running outside with a mask was the only outdoor activity.&lt;/p&gt;
+
+&lt;p&gt;Zero commute time gave me great flexibility in my schedule. It was not long ago when I minimized such “unproductive” time, listening to Ted Talks on the way to school and flipping over Hanzi Flashcards while returning. But I realized now that physically being in different settings has always ventilated my mind so that it can be filled with refreshing new tasks. Instead of enjoying the maximum productivity that I hoped for, I started looking into the recommendations by the New York Times.&lt;/p&gt;
+
+&lt;p&gt;I fulfilled the need to unwind here and there—ventilating my mind—with screen time again. Youtube, Netflix, iPad games, and more. They were like energy-boost drinks that have an immediate effect, and I didn’t need to move an inch to enjoy them. My desk had all I need.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../post-images/2020-6-16-distractions-covid-19.png&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;My workspace&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Only if these energy drinks were not addictive…&lt;/p&gt;
+
+&lt;p&gt;I quickly lost the sense of distinction between energy-boosts and productive work. Walking and working were two very different things before the virus, but everything now was under the broad category of “screen time.” After hours pass in any given day, it became too common for me to summarise what I have achieved. When I went through History in Google Chrome a week ago, the redness of Youtube and Netflix dominated the website list. The elegance of the New York Times logo and WaitButWhy faded. I even lost a sense of time.&lt;/p&gt;
+
+&lt;p&gt;I tried to justify my relationship with distractions every day. I am in the middle of a serious global pandemic, and as the New York Times said, let’s just not “lose my mind.” What else can I do? What else &lt;em&gt;should&lt;/em&gt; I do?&lt;/p&gt;
+
+&lt;p&gt;The dissatisfaction with myself grew daily as I tried to enlighten the day with an endless array of momentary entertainment. Distractions seemed to be almost paralyzing me, removing any space for my mind to wander. Does “not losing my mind” mean constantly distracting it? This feels wrong. Hell.&lt;/p&gt;
+
+&lt;p&gt;Thankfully, the New York Times woke me up. On its front page one day, I discovered &lt;a href=&quot;https://www.nytimes.com/2020/06/12/opinion/sunday/black-america-racism-refugee.html?action=click&amp;amp;module=Opinion&amp;amp;pgtype=Homepage&quot;&gt;a powerful and moving article.&lt;/a&gt; It was a personal reflection by Tiffanie Drayton, who fled the US due to unstoppable racism and the danger that black citizens face in the country. A mixture of emotions hit me as I visualized the heart-wrenching descriptions of protests and the ongoing attacks against black Americans.&lt;/p&gt;
+
+&lt;p&gt;Just as racism was “too much” for her to bear, the shame I felt about myself overwhelmed me. I did not know anything about George Floyd and the reasons why people are on the streets. I did not know how the “Black Lives Matter” movement sprung up. I had to google everything up because the author simply did not need to define these current events, knowing that it is already in the minds of millions. While these people were heroically calling for change, I was stuck in my room disconnected from the world, only plugged into irrelevant distractions.&lt;/p&gt;
+
+&lt;p&gt;A few months ago, I was like a newsboy. I closely followed the upcoming US Election, and I watched every single Democratic Debate from start to finish. I marveled at the endorsement of two candidates by the New York Times. I also watched Joe Biden going up and down, finally securing his place. The more I stayed away from current news, the more I became indifferent to the world.&lt;/p&gt;
+
+&lt;p&gt;Unwinding has become more important than ever during this stressful global crisis, but I believe that it should not numb our attention to the outside world. For a data science journalist, current events are sources of inspiration. Too often, distractions also interfere with the momentum of our goals and daily tasks. Writing is a stellar example because it requires us to spend time with sustained and focused effort, which can easily become daunting once distractions take over our minds. The need to think deeply becomes tedious, urging us to visit Youtube for short-and-sweet entertainment.&lt;/p&gt;
+
+&lt;p&gt;The more I am distracted, the less I am myself. Distractions are important to unload stress, but I indeed went too far.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 16 Jun 2020 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/posts/distractions-in-times-of-covid-19</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/distractions-in-times-of-covid-19</guid>
+        
+        <category>reflection</category>
+        
+        
+      </item>
     
       <item>
         <title>Mr.Blue Sky covered by Jazz Frustrations</title>
@@ -15,7 +59,7 @@
 
 &lt;p&gt;We spent over a month recording ourselves at home and compiling videos! It was so much fun for me to sync the videos on Adobe Premier Pro and add more parts as necessary.&lt;/p&gt;
 
-&lt;p&gt;The project was finished on May 20th, and the video was showcased in our school’s last assembly of the year.&lt;/p&gt;
+&lt;p&gt;The project was finished on May 16th, and the video was showcased in our school’s last assembly of the year.&lt;/p&gt;
 
 &lt;p&gt;Please enjoy!&lt;/p&gt;
 
@@ -85,6 +129,8 @@
         <guid isPermaLink="true">http://localhost:4000/posts/fake-vs-fact-2016</guid>
         
         <category>creatives</category>
+        
+        <category>data</category>
         
         
       </item>
@@ -246,52 +292,6 @@ of others.&lt;/p&gt;
         <category>jis</category>
         
         <category>reflection</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Adding Latitude and Longitude given a location using Geocoder library</title>
-        <description>&lt;h1 id=&quot;about-geocoder&quot;&gt;About Geocoder&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&quot;https://geocoder.readthedocs.io/&quot;&gt;Geocoder&lt;/a&gt; is a python library that enables us to get Latitude and Longitude value given an address anywhere in the world. I will work with the cleaned dataset I created with Beautiful soup from this &lt;a href=&quot;https://sangwookcheon.github.io/2019/07/12/web-scraping-using-beautiful-soup/&quot;&gt;article&lt;/a&gt;. I will add Latitude and Longitude coordinates to each Postal Code.&lt;/p&gt;
-
-&lt;p&gt;It is important to note that Geocoder library can sometimes be inconsistent, returning ‘None’ instead of coordinates. This library is free-of-charge, but you might want to use a more stable but paid service like &lt;a href=&quot;https://developers.google.com/maps/documentation/geocoding/start&quot;&gt;Google Geocoding API&lt;/a&gt;. For this task, using Geocoder library is enough.&lt;/p&gt;
-
-&lt;!--break--&gt;
-
-&lt;p&gt;First let’s import Geocoder library and other tools:&lt;/p&gt;
-
-&lt;script src=&quot;https://gist.github.com/SangwookCheon/dd89e8d990f12f57405e4564915d7209.js&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;Here are the first 10 rows of my cleaned table. In total, there are 103 rows, meaning that there are 103 unique postal codes.&lt;/p&gt;
-
-&lt;p&gt;We first need to initialize lat-long coordinates to be an empty list, which will be filled for each postal code and added to the table. We also need to get postal codes from the table.&lt;/p&gt;
-
-&lt;p&gt;I stored the clean data table as &lt;code class=&quot;highlighter-rouge&quot;&gt;data&lt;/code&gt; by using &lt;code class=&quot;highlighter-rouge&quot;&gt;read_csv&lt;/code&gt; function of Pandas.&lt;/p&gt;
-
-&lt;script src=&quot;https://gist.github.com/SangwookCheon/7b452c32af64bd176e26ac140b99f4e4.js&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;Now is the part where I loop until coordinates are derived from the &lt;code class=&quot;highlighter-rouge&quot;&gt;geocoder.google&lt;/code&gt; function, and then add it to the original table.&lt;/p&gt;
-
-&lt;script src=&quot;https://gist.github.com/SangwookCheon/749be59c9d2cfe279494ab29e198e144.js&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;Doing this might take some time, because there is loading time when getting coordinates. When finished, now there is an updated table with two new columns, named &lt;code class=&quot;highlighter-rouge&quot;&gt;latitude&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;longitude&lt;/code&gt;, as shown below:
-&lt;img src=&quot;/in-post-images/Screen Shot 2019-07-13 at 11.45.23.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;recap&quot;&gt;Recap&lt;/h1&gt;
-&lt;p&gt;Geocoder library can be used to get latitude and longitude values using a street address. This library is free-of-charge, but can sometimes be inconsistent in yielding results.&lt;/p&gt;
-
-&lt;p&gt;Getting coordinates is important in many applications, such as putting marks on trending places on a map and clustering places based on their latitude and longitude values.&lt;/p&gt;
-
-&lt;p&gt;Here is a &lt;a href=&quot;https://github.com/SangwookCheon/non-e-stop-python-data-science/blob/master/Machine-Learning/Example%20Projects/IBM%20Capstone%20Project/add_latlon.ipynb&quot;&gt;link to Jupyter Notebook&lt;/a&gt; for this article.&lt;/p&gt;
-
-&lt;p&gt;You can also learn about Foursquare API, a map-related API with many social features, by referring to &lt;a href=&quot;https://github.com/SangwookCheon/non-e-stop-python-data-science/blob/master/Machine-Learning/Example%20Projects/IBM%20Capstone%20Project/foursquare_api_exploration.ipynb&quot;&gt;this notebook&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 12 Jul 2019 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/posts/adding-latitude-longitude-geocoder</link>
-        <guid isPermaLink="true">http://localhost:4000/posts/adding-latitude-longitude-geocoder</guid>
-        
-        <category>howto</category>
         
         
       </item>

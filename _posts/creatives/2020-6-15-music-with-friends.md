@@ -12,7 +12,7 @@ A team of four musicians, including me, created a jazz version of Mr.Blue Sky, c
 
 We spent over a month recording ourselves at home and compiling videos! It was so much fun for me to sync the videos on Adobe Premier Pro and add more parts as necessary.
 
-The project was finished on May 20th, and the video was showcased in our school's last assembly of the year.
+The project was finished on May 16th, and the video was showcased in our school's last assembly of the year.
 
 Please enjoy!
 
