@@ -5,9 +5,85 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 16 Jun 2020 14:30:10 +0900</pubDate>
-    <lastBuildDate>Tue, 16 Jun 2020 14:30:10 +0900</lastBuildDate>
+    <pubDate>Tue, 16 Jun 2020 22:20:03 +0900</pubDate>
+    <lastBuildDate>Tue, 16 Jun 2020 22:20:03 +0900</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>Work and Rest during COVID-19 Crisis</title>
+        <description>&lt;p&gt;&lt;img src=&quot;../snippets/2020-6-16-work-rest-covid-19.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 16 Jun 2020 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/posts/work-rest-covid-19</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/work-rest-covid-19</guid>
+        
+        <category>creatives</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>How Should I Read Research Papers? (No PhD Needed!)</title>
+        <description>&lt;p&gt;A big part of this blog will be reading research papers and sharing what I learned, including a brief summary along with key insights. I believe that reading papers is the surefire way to stay updated on the latest developments and gain valuable knowledge. They have value that goes beyond simply studying textbooks.&lt;/p&gt;
+
+&lt;p&gt;In this current world where I am not allowed to go out, research papers are the best way to keep learning. From data science to biology to artificial intelligence, the catalog of research papers is constantly evolving, and I can’t wait to dive into the exciting field.&lt;/p&gt;
+
+&lt;p&gt;I watched an incredibly &lt;a href=&quot;https://www.youtube.com/watch?v=SHTOI0KtZnU&quot;&gt;helpful video by Siraj Raval&lt;/a&gt;, who is so passionate about the field of machine learning, artificial intelligence, and more. I am putting a summary of what he suggested in the video, which I hope will be useful to others as well. Thank you Siraj for the video! Your work is truly admirable.&lt;/p&gt;
+
+&lt;p&gt;All the credit for the following information goes to Siraj’s video, so please check it out.&lt;/p&gt;
+
+&lt;p&gt;Here we go!&lt;/p&gt;
+
+&lt;!--break--&gt;
+
+&lt;p&gt;&lt;strong&gt;Important Note:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Siraj reads anything between 10 to 20 research papers a week! But he doesn’t have any graduate degree, so this is the result of purely getting better over time.&lt;/p&gt;
+
+&lt;p&gt;The Collective University is the Internet. Remember this.&lt;/p&gt;
+
+&lt;h1 id=&quot;what-resources-can-i-use&quot;&gt;What Resources Can I Use?&lt;/h1&gt;
+&lt;p&gt;Siraj finds the &lt;a href=&quot;https://www.reddit.com/r/MachineLearning/&quot;&gt;Machine Learning SubReddit &lt;/a&gt;most useful when it comes to discovering relevant and refreshing research papers.&lt;/p&gt;
+
+&lt;p&gt;Also, he often uses &lt;a href=&quot;http://www.arxiv-sanity.com/&quot;&gt;ArXiv Sanity&lt;/a&gt;, which is a more user-friendly version of the traditional &lt;a href=&quot;https://arxiv.org/&quot;&gt;ArXiv.org&lt;/a&gt; made by the Cornell University. Both of these contain millions of advanced papers, so they should be used in conjunction. I can filter the results based on what interests me.&lt;/p&gt;
+
+&lt;p&gt;Another website is a blog made by an Australian machine learning engineer, who puts blog posts that are very descriptive and hands-on. It’s called &lt;a href=&quot;https://machinelearningmastery.com/how-to-research-a-machine-learning-algorithm/&quot;&gt;Machine Learning Mastery&lt;/a&gt;, and this website is my favourite. The good thing about this is that he emphasizes practicality over complicatedness, so if you follow his article, you will easily be able to make an implementation yourself. Research papers can sometimes be daunting or difficult to try out by yourself. He also sells amazing books that teaches you with easy explanations (I have them and they are outstanding), but most of the content can be found within the blog. I recommend using this website to gain confidence in machine learning (which I need) by learning the concepts fast and building your own models to solidify knowledge. Once the foundation is set, it would be much easier to read more advanced research papers.&lt;/p&gt;
+
+&lt;p&gt;DIY is also important!&lt;/p&gt;
+
+&lt;h1 id=&quot;how-do-i-choose-what-research-papers-to-read&quot;&gt;How do I choose what Research Papers to Read?&lt;/h1&gt;
+&lt;p&gt;Set a small goal each week - what do I want to learn more about?  Is it activation models? Hyper-parameter tuning? Siraj can go through difficult papers much better if he has a motivation and a real reason to dive into it.&lt;/p&gt;
+
+&lt;h1 id=&quot;how-do-i-actually-read-the-paper-is-there-a-specific-method&quot;&gt;How do I “Actually” Read the Paper? Is There a Specific Method?&lt;/h1&gt;
+
+&lt;p&gt;Yes! Siraj calls it the &lt;em&gt;3-pass Method&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;First Step:&lt;/strong&gt; Just skim through the paper. Read the title and see if it is interesting. Read the abstract. If it is still intriguing, the skim through the entire paper. Read headings and subheadings, but ignore the math entirely. Read the conclusion as well as references, to see if there are any research papers that you already read. Only attempt to get a overarching view on what the paper intends to do.&lt;/p&gt;
+
+&lt;p&gt;It is important to see if the paper is “worth your time.” You can even look at Reddit to see the initial reactions of people who already read it.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Second Step:&lt;/strong&gt; Re-Read, more critically, taking notes as well (summary!). Read all the English text, and get a high-level understanding of the math. If you cannot understand anything, it might be a sign that you need a little bit more foundation. But never give up! There must be some articles online made by some other people that explain the concepts more easily.&lt;/p&gt;
+
+&lt;p&gt;Very Important: When I read about the experiment, consider if the results are repeatable, backed up with good evidence. Hopefully, there is some relevant code along with the paper that I can use by myself, most likely available on GitHub. Read the code and try to run the code locally to replicate the results.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Third Step:&lt;/strong&gt; Siraj has a Jupyter Notebook full of notes and images that help explain concepts. He says that teaching is the best way to retain information, which I agree, so I will write blog posts about every research paper I read! I hope you will do the same.&lt;/p&gt;
+
+&lt;p&gt;The third step is all about breaking down the math further. Understand every part of the math, using Wikipedia to understand any ambiguous concepts. If Siraj is “really ambitious,” he also tries to “replicate the paper programmatically, using hyper parameters settings and equations that it describes,” but I honestly do not understand what he means.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;But I hope the major points are laid out nicely in this article. Thank you for tuning in, and I will come back with an interesting research article soon.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 16 Jun 2020 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/posts/how-to-read-research-papers</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/how-to-read-research-papers</guid>
+        
+        <category>howto</category>
+        
+        <category>summary</category>
+        
+        
+      </item>
     
       <item>
         <title>Distractions in times of a Global Crisis</title>
@@ -172,126 +248,6 @@
         <guid isPermaLink="true">http://localhost:4000/posts/about-boredom</guid>
         
         <category>creatives</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>What is the Human Genome Project?</title>
-        <description>&lt;p&gt;What is the first thing scientists did to tackle the rapidly-evolving COVID-19? &lt;/p&gt;
-
-&lt;p&gt;They decoded the virus. It is often known as “genomic sequencing.” After China shared the first cases with the world in late December, scientists gathered to identify the full sequence of the coronavirus. Researchers from France, Korea, and other nations followed suit soon after. &lt;/p&gt;
-
-&lt;!--break--&gt;
-
-&lt;p&gt;Genomic sequencing works as a foundational blueprint for scientists. The sequence is used as a reference when developing diagnostic tests and determining potential treatments. 
-While the genomic sequence for COVID-19 quickly became a shared resource of the globe, such a process was more complicated a few decades ago, when the United States kickstarted an ambitious plan to decode a person. Yes, the “human” genome.&lt;/p&gt;
-
-&lt;p&gt;It is worthwhile to revisit the history behind the project that pushed us into the grand “era of the genome.”&lt;/p&gt;
-
-&lt;p&gt;Following major technological advances in the 1970s, the notion of decoding a human got more feasible for scientists. Some critics assumed that functions of genes cannot be ever studied through their sequence, but a combination of potential scientific merit and public interest pushed the idea forward.&lt;/p&gt;
-
-&lt;p&gt;Department of Energy (DOE) and National Institute of Health (NIH) launched the “Human Genome Project” on October 1st, 1990, with the rough completion year of 2005. At the time, they did not expect that they will finish two entire years in advance.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../post-images/D5ADBFBF-BB29-46B9-88A5-FA70A80FE9A1 1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Their big aim was to determine all genes and sequence nucleotides of the human genome, and also create databases to store information. But another important aspect was considering the philosophical and ethical issues, so roughly five percent of the budget was allocated towards this cause. Philosopher Eric T. Juengst was the director of this program. &lt;/p&gt;
-
-&lt;p&gt;Instead of sequencing the genome right away, the team built genetic and physical “maps” first. In essence, DNA clones were replicated for sequencing, and polymorphic markers were used to target specific “chromosomal regions.” Then, they tested genomic sequencing on smaller organisms before moving to the more complex human genome.&lt;/p&gt;
-
-&lt;p&gt;The task of sequencing the human genome stretched outside the US, where France and the United Kingdom funded their own research institutes. The Sanger Centre of the UK opened in 1993, which received support from the Wellcome Trust and Medical Research Council. Japan and China also jumped in soon after.&lt;/p&gt;
-
-&lt;p&gt;Besides, the team noticed a growing interest from the private sector in genome sequencing, such as the Celera Genomics. It proposed a distinctive way of sequencing, called the “whole-genome shotgun method,” which breaks the entire genome with high-frequency sound waves into many smaller pieces of DNA, sequence them, and reassemble the sequences with supercomputers by mapping the clones to chromosomes. &lt;/p&gt;
-
-&lt;p&gt;The public sector and Celera used different approaches, but they achieved the same result: sequencing roughly 3.2 billion base pairs. The US President Bill Clinton, DOE, and other scientists announced that the project has been completed in 2000, but the results actually had many gaps. Three years later, despite less public interest due to war and terrorism, the project officially came to a close.&lt;/p&gt;
-
-&lt;p&gt;Sequencing of the genome was truly an international effort. Six countries contributed 16 centers in total. Along the process, efficient methods of sequencing entire genomes were created and tested. Scientists were able to give partial credit to the initial assumption because the structure of the genome could provide limited insights into its function. Still, the project opened a new window of opportunities for the broad field of biology. &lt;/p&gt;
-
-&lt;p&gt;It is curious to see if the Human Genome Project has provided equal opportunities for all parts of the world. How has the project accelerated medicine development, and is there any aspect that is left behind? If the publicity of the genomic sequence spurred innovation, what are the policies of the beneficiaries of the modern world?&lt;/p&gt;
-
-&lt;p&gt;Before I dive into these questions, I will write about the role of the sub-group that worked on the philosophical and ethical implications of the project. I hope to look at the visions they created and how they compare with the current society.&lt;/p&gt;
-
-&lt;p&gt;The Research Paper Used:&lt;/p&gt;
-
-&lt;p&gt;Gannett, Lisa, “The Human Genome Project”, The Stanford Encyclopedia of Philosophy (Winter 2019 Edition), Edward N. Zalta (ed.).&lt;/p&gt;
-</description>
-        <pubDate>Sat, 06 Jun 2020 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/posts/what-is-human-genome-project</link>
-        <guid isPermaLink="true">http://localhost:4000/posts/what-is-human-genome-project</guid>
-        
-        <category>summary</category>
-        
-        <category>research</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Paradox of Computers for People in Need</title>
-        <description>&lt;p&gt;“I have a little announcement,” I said.&lt;/p&gt;
-
-&lt;p&gt;It was a regular lunch meeting for my
-service club. I pulled out my MacBook,
-walked to the podium—an English
-classroom is our venue—and began
-talking.&lt;/p&gt;
-
-&lt;p&gt;“I am happy you had fun in AlHurriyah! If you couldn’t go, we all can
-revisit the school sometime. Sixty fifthgraders greeted us, and we checked if
-there is a vacant room for computers.”&lt;/p&gt;
-
-&lt;!--break--&gt;
-
-&lt;p&gt;“Sixty?” Some gasped in unison.&lt;/p&gt;
-
-&lt;p&gt;“Exactly. We can teach more than
-sixty, or even the whole school.
-Sugata Mitra’s ‘Hole in the Wall’
-experiment proved the power of a
-single computer.”&lt;/p&gt;
-
-&lt;p&gt;“But I want to share another story.
-Last week, there was a three-hour trip
-to a hilly village in Sentul. One girl I
-met is re-reading her old comic books
-because school is too far away.”&lt;/p&gt;
-
-&lt;p&gt;Our advisor raised his eyebrows. I
-took a breath and continued.&lt;/p&gt;
-
-&lt;p&gt;“Here’s the dilemma: five computers
-for ten out-of-school children in the
-village or five-hundred students in AlHurriyah. What’s better?”&lt;/p&gt;
-
-&lt;p&gt;Silence.&lt;/p&gt;
-
-&lt;p&gt;“Managing computers located threehours away would be hard, though.”
-one member commented.&lt;/p&gt;
-
-&lt;p&gt;“Definitely. But here’s a plan called
-‘Computer Drive.’ Like a delivery
-service…” I spoke for another ten
-minutes, but I knew I lost the
-audience.&lt;/p&gt;
-
-&lt;p&gt;The dilemma, in fact, left me clueless
-for days. After researching and
-thinking, I passionately supported the
-school-less children. Although it didn’t
-pass, it was a profound battle between
-many and few, far and near, and
-ultimately, my values and experiences
-of others.&lt;/p&gt;
-
-&lt;p&gt;Is this dilemma ever answerable?&lt;/p&gt;
-</description>
-        <pubDate>Sun, 23 Feb 2020 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/posts/plugged-in-paradox-of-computers</link>
-        <guid isPermaLink="true">http://localhost:4000/posts/plugged-in-paradox-of-computers</guid>
-        
-        <category>jis</category>
-        
-        <category>reflection</category>
         
         
       </item>

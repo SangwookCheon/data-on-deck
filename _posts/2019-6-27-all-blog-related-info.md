@@ -57,3 +57,7 @@ In the `blog.html` layout, include the following snippet of code:
 * On a mobile phone, the title of an article is too big when I click on the link to that page. I must make the font size adapt to screen size
 * I want to make a search function that instnatly shows results, like the TeXT theme.
 * I need to enable pagination for the "creatives" tab. Currently, it's not working.
+
+# Things I want to Improve On
+* Improve the search function so that it doesn't lead to a DuckDuckGo page.
+* Create a platform where I can input any kind of html file as a post --> greater flexibility, like New York Times interactive articles.
