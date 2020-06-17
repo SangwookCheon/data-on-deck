@@ -1,5 +1,5 @@
 ---
 slug: summary
-name: Summary
-description: Summary of Research Papers, important for Researching Issues.
+name: Summary of Research Papers
+description: Very important for Researching Issues. Sometimes, online articles are summarized as well.
 ---

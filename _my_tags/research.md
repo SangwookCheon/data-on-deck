@@ -1,5 +1,5 @@
 ---
 slug: research
 name: Research
-description: 
+description: Researching issues of the world using Data Science and other tools.
 ---
