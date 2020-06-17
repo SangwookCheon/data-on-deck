@@ -12,9 +12,7 @@ A big part of this blog will be reading research papers and sharing what I learn
 
 In this current world where I am not allowed to go out, research papers are the best way to keep learning. From data science to biology to artificial intelligence, the catalog of research papers is constantly evolving, and I can’t wait to dive into the exciting field.
 
-I watched an incredibly [helpful video by Siraj Raval](https://www.youtube.com/watch?v=SHTOI0KtZnU), who is so passionate about the field of machine learning, artificial intelligence, and more. I am putting a summary of what he suggested in the video, which I hope will be useful to others as well. Thank you Siraj for the video! Your work is truly admirable.
-
-All the credit for the following information goes to Siraj’s video, so please check it out.
+I watched an incredibly [helpful video by Siraj Raval](https://www.youtube.com/watch?v=SHTOI0KtZnU), who is passionate about the field of machine learning, artificial intelligence, and more. I am putting a summary of what he suggested in the video, which I hope will be useful to others as well. All the credit for the following information goes to Siraj’s video, so please check it out.
 
 Here we go!
 

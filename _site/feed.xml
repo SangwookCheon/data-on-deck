@@ -5,8 +5,8 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 16 Jun 2020 22:20:03 +0900</pubDate>
-    <lastBuildDate>Tue, 16 Jun 2020 22:20:03 +0900</lastBuildDate>
+    <pubDate>Wed, 17 Jun 2020 11:23:42 +0900</pubDate>
+    <lastBuildDate>Wed, 17 Jun 2020 11:23:42 +0900</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
     
       <item>
@@ -28,9 +28,7 @@
 
 &lt;p&gt;In this current world where I am not allowed to go out, research papers are the best way to keep learning. From data science to biology to artificial intelligence, the catalog of research papers is constantly evolving, and I can’t wait to dive into the exciting field.&lt;/p&gt;
 
-&lt;p&gt;I watched an incredibly &lt;a href=&quot;https://www.youtube.com/watch?v=SHTOI0KtZnU&quot;&gt;helpful video by Siraj Raval&lt;/a&gt;, who is so passionate about the field of machine learning, artificial intelligence, and more. I am putting a summary of what he suggested in the video, which I hope will be useful to others as well. Thank you Siraj for the video! Your work is truly admirable.&lt;/p&gt;
-
-&lt;p&gt;All the credit for the following information goes to Siraj’s video, so please check it out.&lt;/p&gt;
+&lt;p&gt;I watched an incredibly &lt;a href=&quot;https://www.youtube.com/watch?v=SHTOI0KtZnU&quot;&gt;helpful video by Siraj Raval&lt;/a&gt;, who is passionate about the field of machine learning, artificial intelligence, and more. I am putting a summary of what he suggested in the video, which I hope will be useful to others as well. All the credit for the following information goes to Siraj’s video, so please check it out.&lt;/p&gt;
 
 &lt;p&gt;Here we go!&lt;/p&gt;
 
@@ -138,6 +136,8 @@
 &lt;p&gt;The project was finished on May 16th, and the video was showcased in our school’s last assembly of the year.&lt;/p&gt;
 
 &lt;p&gt;Please enjoy!&lt;/p&gt;
+
+&lt;!--break--&gt;
 
 &lt;iframe src=&quot;https://drive.google.com/file/d/1N0nwvssBpp4gJwAtQbCKuwrMj7YJtBE1/preview&quot; width=&quot;640&quot; height=&quot;480&quot;&gt;&lt;/iframe&gt;
 

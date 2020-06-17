@@ -16,6 +16,8 @@ The project was finished on May 16th, and the video was showcased in our school'
 
 Please enjoy!
 
+<!--break-->
+
 <iframe src="https://drive.google.com/file/d/1N0nwvssBpp4gJwAtQbCKuwrMj7YJtBE1/preview" width="640" height="480"></iframe>
 
 **[The link to the video is here](https://drive.google.com/file/d/1N0nwvssBpp4gJwAtQbCKuwrMj7YJtBE1/view?usp=sharing)**

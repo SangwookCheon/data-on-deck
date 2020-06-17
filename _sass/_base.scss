@@ -45,11 +45,12 @@ a, .a {
   text-decoration: none;
   position: relative;
   border-bottom: 0.18rem solid transparent;
-  transition: opacity 0.05s;
+  transition: color 0.05s;
 
     &:hover, &:focus {
       text-decoration: none;
-      opacity: 70%;
+      color: #EA6227;
+      // opacity: 70%;
     }
     strong {
       color: inherit;

@@ -17,7 +17,9 @@ This is called a "Lab" because I want to put anything I experiment with. It has 
 
 ## How it was Made
 
-I forked a GitHub repository called "Dactl," which runs on the Jekyll machine. I used the Atom Editor to change the UI of the blog, and customize for my needs. I go to Atom everyday to tinker with code and add articles. This blog is currently hosted by GitHub pages.
+I forked a GitHub repository named "Dactl," made by melangue. The website runs on the Jekyll machine. I used the Atom Editor to change the UI of the blog, and customize for my needs. I go to Atom everyday to tinker with code and add articles. This blog is currently hosted by GitHub pages.
+
+"Dactl" is under MIT License, so I can freely customize it. However, I would like thank melangue for providing an amazing theme to start with! 
 
 If you are interested in learning how to create a customized blog for yourself, I can definitely help you!
 
