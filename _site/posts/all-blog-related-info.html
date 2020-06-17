@@ -71,6 +71,8 @@ Last Updated: June 6th, 2020
 <p><em>Last Updated: June 6th, 2020</em>
 <!--break-->
 <p><strong>Important Update:</strong> The length of the article must be quite long for the tags to be clickable, on the blog page.
+<p><strong>VERY IMPORTANT NOTE:</strong>
+<p>Remember not to arbitrarily change the file structure nor names of folders. It can immediately cause chaos because there are many file paths that are dependent on this current structure.
 <h1 id="how-to-build-the-site">How to Build the Site</h1>
 <p>Building the site with jekyll is done everytime I want to see the changes I made to the blog.
 Every time I open the project, I must first export the ‘gems’ that are located in my local machine:
@@ -106,6 +108,10 @@ Then, inside the file, input the following format:
 <p>For the second one, go to <code class="highlighter-rouge">_base.scss</code> and find <code class="highlighter-rouge">.a</code> which is a shorthand for links.
 <p>For the third one, go to <code class="highlighter-rouge">_base.scss</code> and find <code class="highlighter-rouge">hr</code>.
 <p>Yes, so everything related to color can be found in this scss file.
+<h1 id="uploading-an-illustration-for-each-tag">Uploading an Illustration for each Tag</h1>
+<p>I made this possible as an extra feature. To do this, go to <code class="highlighter-rouge">_my_tags</code> and choose one tag. For the front matter, put <code class="highlighter-rouge">image:</code> and then add the path to the image. Only for this purposes, upload the image to imgur and use a public file path, instead of a local path. There seems to be a problem with relative path that I cannot fix as of now.
+<p>I changed the <code class="highlighter-rouge">blog-by-tag.html</code> file under <code class="highlighter-rouge">_layouts</code> so that it looks for the image path. If there is, the image will be put below the description.
+<p>Illustration should show what the ‘tag’ is about, in a creative way. I can use my stickman figures.
 <h1 id="problems-i-need-to-fix">Problems I need to Fix</h1>
 <ul>
  <li>On a mobile phone, the title of an article is too big when I click on the link to that page. I must make the font size adapt to screen size

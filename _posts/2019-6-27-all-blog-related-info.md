@@ -15,6 +15,10 @@ This is not an article. I am simply building a catalog of notes that are useful 
 
 **Important Update:** The length of the article must be quite long for the tags to be clickable, on the blog page.
 
+**VERY IMPORTANT NOTE:**
+
+Remember not to arbitrarily change the file structure nor names of folders. It can immediately cause chaos because there are many file paths that are dependent on this current structure.
+
 # How to Build the Site
 Building the site with jekyll is done everytime I want to see the changes I made to the blog.
 Every time I open the project, I must first export the 'gems' that are located in my local machine:
@@ -71,6 +75,14 @@ For the second one, go to `_base.scss` and find `.a` which is a shorthand for li
 For the third one, go to `_base.scss` and find `hr`.
 
 Yes, so everything related to color can be found in this scss file.
+
+# Uploading an Illustration for each Tag
+
+I made this possible as an extra feature. To do this, go to `_my_tags` and choose one tag. For the front matter, put `image:` and then add the path to the image. Only for this purposes, upload the image to imgur and use a public file path, instead of a local path. There seems to be a problem with relative path that I cannot fix as of now.
+
+I changed the `blog-by-tag.html` file under `_layouts` so that it looks for the image path. If there is, the image will be put below the description.
+
+Illustration should show what the 'tag' is about, in a creative way. I can use my stickman figures.
 
 # Problems I need to Fix
 * On a mobile phone, the title of an article is too big when I click on the link to that page. I must make the font size adapt to screen size
