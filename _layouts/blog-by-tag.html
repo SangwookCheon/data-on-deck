@@ -14,11 +14,13 @@ Articles tagged with <strong>‘#{{ page.name }}’</strong>
 
 {% include page/title.html title=page.name subtitle=page_subtitle %}
 
-{% if page.image %}
-  <img src="{{ page.image }}" alt="">
-{% endif %}
 
 {% if site.tags[page.slug] %}
+
+{% if page.image %}
+  <img src="{{ page.image }}" alt="Hello">
+{% endif %}
+
     {% for post in site.tags[page.slug] %}
 
       {% assign currentdate = post.date | date: "%Y/%m" %}
