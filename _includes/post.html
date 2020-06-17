@@ -45,7 +45,9 @@
       </div>
     </div>
   </div>
+    <div>
+      {{ post.content | remove: '&lt;!–-break-–&gt;' }}
+      <!-- Post content -->
+    </div>
 
-    <!-- Post content -->
-    {{ post.content | remove: '&lt;!–-break-–&gt;' }}
 </article>
