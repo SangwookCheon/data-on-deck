@@ -53,6 +53,25 @@ In the `blog.html` layout, include the following snippet of code:
 
 <script src="https://gist.github.com/SangwookCheon/77cafb84c4d4d28101da67b1dca64d60.js"></script>
 
+# How to Change the Style of Titles of Articles (When reading them)
+
+Go to `_titles.scss` file, look for `.post-title-container` in that file. This contains information on how the "title" section (both on the blog page and post) should look like. I can change color, font size, font family, etc. Actually, this scss file contains everything about titles, subtitles, and how an article should look like. So tinker with the components.
+
+# How to Change the Color Scheme of the Whole Blog
+
+Here are the things I can change:
+  - When text is selected via mouse drag, the selection background color
+  - Color when Hovering on Links
+  - Color of the Horizontal Rule
+
+For the first one, go to `_base.scss` and search for `::selection` Here, I can easily change the color as well as effect.
+
+For the second one, go to `_base.scss` and find `.a` which is a shorthand for links.
+
+For the third one, go to `_base.scss` and find `hr`.
+
+Yes, so everything related to color can be found in this scss file.
+
 # Problems I need to Fix
 * On a mobile phone, the title of an article is too big when I click on the link to that page. I must make the font size adapt to screen size
 * I want to make a search function that instnatly shows results, like the TeXT theme.

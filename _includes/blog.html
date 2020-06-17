@@ -47,7 +47,8 @@
 
         <span>
           {% for tag in post.tags %}
-              <a href="{{ 'tag/' | relative_url }}{{ tag }}" style="background-color:#f2a51a;">#{{ tag }}</a>
+              <a href="{{ 'tag/' | relative_url }}{{ tag }}" style="background-color:#ffffff;">#{{ tag }}</a>
+              <!-- #f2a51a for orange color (highlight the tags) -->
           {% endfor %}
         </span>
       </div>

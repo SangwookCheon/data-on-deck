@@ -93,6 +93,19 @@ Then, inside the file, input the following format:
 <h1 id="if-i-want-to-exclude-pictures-and-snippets-from-the-main-blog-page">If I want to exclude Pictures and Snippets from the Main Blog Page</h1>
 <p>In the <code class="highlighter-rouge">blog.html</code> layout, include the following snippet of code:
 <script src="https://gist.github.com/SangwookCheon/77cafb84c4d4d28101da67b1dca64d60.js"></script>
+<h1 id="how-to-change-the-style-of-titles-of-articles-when-reading-them">How to Change the Style of Titles of Articles (When reading them)</h1>
+<p>Go to <code class="highlighter-rouge">_titles.scss</code> file, look for <code class="highlighter-rouge">.post-title-container</code> in that file. This contains information on how the “title” section (both on the blog page and post) should look like. I can change color, font size, font family, etc. Actually, this scss file contains everything about titles, subtitles, and how an article should look like. So tinker with the components.
+<h1 id="how-to-change-the-color-scheme-of-the-whole-blog">How to Change the Color Scheme of the Whole Blog</h1>
+<p>Here are the things I can change:
+<ul>
+ <li>When text is selected via mouse drag, the selection background color
+ <li>Color when Hovering on Links
+ <li>Color of the Horizontal Rule
+</ul>
+<p>For the first one, go to <code class="highlighter-rouge">_base.scss</code> and search for <code class="highlighter-rouge">::selection</code> Here, I can easily change the color as well as effect.
+<p>For the second one, go to <code class="highlighter-rouge">_base.scss</code> and find <code class="highlighter-rouge">.a</code> which is a shorthand for links.
+<p>For the third one, go to <code class="highlighter-rouge">_base.scss</code> and find <code class="highlighter-rouge">hr</code>.
+<p>Yes, so everything related to color can be found in this scss file.
 <h1 id="problems-i-need-to-fix">Problems I need to Fix</h1>
 <ul>
  <li>On a mobile phone, the title of an article is too big when I click on the link to that page. I must make the font size adapt to screen size

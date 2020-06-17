@@ -1,19 +1,27 @@
 // Centered page, post titles and subtitles
 //-------------------------------
 
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+
 .page-title-container,
 .post-title-container {
     width: 100%;
     margin-bottom: 6rem;
     height: 20rem;
-
     text-align: left;
     position: relative;
 
     h1 {
       font-weight: $base-font-weight-bold;
       font-size: $post-title-size;
+      font-family: 'Libre Baskerville', serif;
+      line-height: 1.2;
       border: 0; // reset
+
+      @media (max-width: 48rem) {
+        font-size: $mobile-title-size;
+        }
+
       a {
         display: block; // slide border needs to cover the whole heading
         @include border-slide(left)
@@ -23,8 +31,10 @@
     // heading container
     .heading-container {
       position: relative;
-      top: 50%;
-      transform: translateY(-50%);
+      top: 70%;
+      transform: translateY(-70%);
+
+      // This was originally 50% for both fields.
     }
 
 }
