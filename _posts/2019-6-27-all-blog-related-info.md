@@ -84,6 +84,12 @@ I changed the `blog-by-tag.html` file under `_layouts` so that it looks for the 
 
 Illustration should show what the 'tag' is about, in a creative way. I can use my stickman figures.
 
+WAIT, I CAN indeed use relative local paths instead of doing imgur upload. Just do not use `../` because this means I am refering to one level up above. Only do `/` in front of the path, which gives its path compared to the root. 
+
+# How to Change the Menu (Font of the Blog Title, SVG size, etc)
+
+Go to `_header.scss` file under the `_sass` folder.
+
 # Problems I need to Fix
 * On a mobile phone, the title of an article is too big when I click on the link to that page. I must make the font size adapt to screen size
 * I want to make a search function that instnatly shows results, like the TeXT theme.

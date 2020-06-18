@@ -4,7 +4,7 @@
        <meta charset="utf-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
-<title>Everything related to maintaining this Blog - Nuts and Bolts &#9642; Smiley Lab</title>
+<title>Everything related to maintaining this Blog - Nuts and Bolts &#9642; Great Point Alert</title>
 <!--
 <meta name="description" content="This is not an article. I am simply building a catalog of notes that are useful when updating this blog. Because the entire code has to be altered, it is useful to include some technical details. I forget details too often.
 Last Updated: June 6th, 2020
@@ -24,7 +24,7 @@ Last Updated: June 6th, 2020
 <meta property="og:title" content="Everything related to maintaining this Blog - Nuts and Bolts">
 <meta property="og:description" content="">
 <meta property="og:url" content="http://localhost:4000/posts/all-blog-related-info">
-<meta property="og:site_name" content="Smiley Lab">
+<meta property="og:site_name" content="Great Point Alert">
 <link rel="stylesheet" href="/assets/vendor/normalize-css/normalize.css">
 <link rel="stylesheet" href="/assets/css/main.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gelasio|Rubik:400,400i,700,700i">
@@ -39,8 +39,7 @@ Last Updated: June 6th, 2020
           <header>
    <div class="menu">
      <div class="logo">
-        <a style="" class="unselectable" href="/">Smiley Lab</a>
-        <object type="image/svg+xml" data="/assets/img/smiley4.svg" class="logosvg unselectable">No SVG</object>
+        <a class="unselectable" href="/"><img src="/snippets/0FA5917B-7DF5-4FB1-897E-542983267759.png"></a>
      </div>
        <ul class="unselectable">
            <li><a href="/tag/creatives">creative</a>
@@ -112,6 +111,9 @@ Then, inside the file, input the following format:
 <p>I made this possible as an extra feature. To do this, go to <code class="highlighter-rouge">_my_tags</code> and choose one tag. For the front matter, put <code class="highlighter-rouge">image:</code> and then add the path to the image. Only for this purposes, upload the image to imgur and use a public file path, instead of a local path. There seems to be a problem with relative path that I cannot fix as of now.
 <p>I changed the <code class="highlighter-rouge">blog-by-tag.html</code> file under <code class="highlighter-rouge">_layouts</code> so that it looks for the image path. If there is, the image will be put below the description.
 <p>Illustration should show what the ‘tag’ is about, in a creative way. I can use my stickman figures.
+<p>WAIT, I CAN indeed use relative local paths instead of doing imgur upload. Just do not use <code class="highlighter-rouge">../</code> because this means I am refering to one level up above. Only do <code class="highlighter-rouge">/</code> in front of the path, which gives its path compared to the root.
+<h1 id="how-to-change-the-menu-font-of-the-blog-title-svg-size-etc">How to Change the Menu (Font of the Blog Title, SVG size, etc)</h1>
+<p>Go to <code class="highlighter-rouge">_header.scss</code> file under the <code class="highlighter-rouge">_sass</code> folder.
 <h1 id="problems-i-need-to-fix">Problems I need to Fix</h1>
 <ul>
  <li>On a mobile phone, the title of an article is too big when I click on the link to that page. I must make the font size adapt to screen size
