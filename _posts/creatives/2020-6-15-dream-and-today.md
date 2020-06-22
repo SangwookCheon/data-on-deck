@@ -7,4 +7,4 @@ description:
 published: true
 ---
 
-![](../snippets/2020-6-15-dream-and-today.png)
+![](/snippets/2020-6-15-dream-and-today.png)

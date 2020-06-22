@@ -7,4 +7,4 @@ description:
 published: true
 ---
 
-![](../snippets/2020-6-9-money-and-pennies.png)
+![](/snippets/2020-6-9-money-and-pennies.png)

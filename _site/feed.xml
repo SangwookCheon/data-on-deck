@@ -5,9 +5,35 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 19 Jun 2020 02:48:20 +0900</pubDate>
-    <lastBuildDate>Fri, 19 Jun 2020 02:48:20 +0900</lastBuildDate>
+    <pubDate>Mon, 22 Jun 2020 15:37:03 +0900</pubDate>
+    <lastBuildDate>Mon, 22 Jun 2020 15:37:03 +0900</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>The Elevator</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/snippets/2020-6-22-the-elevator.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 22 Jun 2020 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/posts/the-elevator</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/the-elevator</guid>
+        
+        <category>creatives</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>The World</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/snippets/2020-6-20-the-world.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 20 Jun 2020 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/posts/the-world</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/the-world</guid>
+        
+        <category>creatives</category>
+        
+        
+      </item>
     
       <item>
         <title>Learning How to Write with Integrity - with the New York Times Ethical Journalism Handbook</title>
@@ -96,7 +122,7 @@
     
       <item>
         <title>Work and Rest during COVID-19 Crisis</title>
-        <description>&lt;p&gt;&lt;img src=&quot;../snippets/2020-6-16-work-rest-covid-19.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;/snippets/2020-6-16-work-rest-covid-19.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 16 Jun 2020 00:00:00 +0900</pubDate>
         <link>http://localhost:4000/posts/work-rest-covid-19</link>
@@ -241,7 +267,7 @@
     
       <item>
         <title>Ideal Today and Actual Today</title>
-        <description>&lt;p&gt;&lt;img src=&quot;../snippets/2020-6-15-dream-and-today.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;/snippets/2020-6-15-dream-and-today.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 15 Jun 2020 00:00:00 +0900</pubDate>
         <link>http://localhost:4000/posts/dream-and-today</link>
@@ -254,7 +280,7 @@
     
       <item>
         <title>Paper Money and Pennies. And Aliens.</title>
-        <description>&lt;p&gt;&lt;img src=&quot;../snippets/2020-6-9-money-and-pennies.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;/snippets/2020-6-9-money-and-pennies.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 09 Jun 2020 00:00:00 +0900</pubDate>
         <link>http://localhost:4000/posts/paper-money-and-pennies</link>
@@ -275,7 +301,7 @@
 
 &lt;!--break--&gt;
 
-&lt;p&gt;&lt;img src=&quot;../snippets/2020-6-9-fake-vs-fact-2016-drawing.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/snippets/2020-6-9-fake-vs-fact-2016-drawing.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Tinker with the data by yourself:&lt;/p&gt;
 
@@ -292,34 +318,6 @@
         <category>creatives</category>
         
         <category>data</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>About Interconnectedness of the World - Grade 9 Assignment</title>
-        <description>&lt;p&gt;&lt;img src=&quot;../snippets/2020-6-8-about-interconnectedness.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 08 Jun 2020 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/posts/about-interconnectedness</link>
-        <guid isPermaLink="true">http://localhost:4000/posts/about-interconnectedness</guid>
-        
-        <category>creatives</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Philosophical and Ethical Thoughts on the Human Genome Project</title>
-        <description>&lt;p&gt;What are the thoughts on the Human Genome Project?&lt;/p&gt;
-</description>
-        <pubDate>Mon, 08 Jun 2020 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/posts/philosophical-ethical-implications-human-genome-project</link>
-        <guid isPermaLink="true">http://localhost:4000/posts/philosophical-ethical-implications-human-genome-project</guid>
-        
-        <category>summary</category>
-        
-        <category>research</category>
         
         
       </item>

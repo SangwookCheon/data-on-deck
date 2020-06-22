@@ -7,4 +7,4 @@ description:
 published: true
 ---
 
-![](../snippets/2020-6-16-work-rest-covid-19.png)
+![](/snippets/2020-6-16-work-rest-covid-19.png)

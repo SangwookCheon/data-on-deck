@@ -7,4 +7,4 @@ description:
 published: true
 ---
 
-![](../snippets/2020-6-8-about-interconnectedness.png)
+![](/snippets/2020-6-8-about-interconnectedness.png)
