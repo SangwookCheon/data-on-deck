@@ -3,6 +3,21 @@
   
     
     <url>
+      <loc>http://localhost:4000/posts/genuineness-not-simple/</loc>
+      
+        <lastmod>2020-06-23T00:00:00+09:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.7</priority>
+      
+    </url>
+    
+  
+    
+    <url>
       <loc>http://localhost:4000/posts/the-elevator/</loc>
       
         <lastmod>2020-06-22T00:00:00+09:00</lastmod>
@@ -278,7 +293,7 @@
     <url>
       <loc>http://localhost:4000/about/</loc>
       
-        <lastmod>2020-06-22T15:37:03+09:00</lastmod>
+        <lastmod>2020-06-24T00:24:16+09:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -293,7 +308,7 @@
     <url>
       <loc>http://localhost:4000/archive/</loc>
       
-        <lastmod>2020-06-22T15:37:03+09:00</lastmod>
+        <lastmod>2020-06-24T00:24:16+09:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -310,7 +325,7 @@
     <url>
       <loc>http://localhost:4000/creative/</loc>
       
-        <lastmod>2020-06-22T15:37:03+09:00</lastmod>
+        <lastmod>2020-06-24T00:24:16+09:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -327,7 +342,7 @@
     <url>
       <loc>http://localhost:4000/</loc>
       
-        <lastmod>2020-06-22T15:37:03+09:00</lastmod>
+        <lastmod>2020-06-24T00:24:16+09:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -342,7 +357,7 @@
     <url>
       <loc>http://localhost:4000/interactive/</loc>
       
-        <lastmod>2020-06-22T15:37:03+09:00</lastmod>
+        <lastmod>2020-06-24T00:24:16+09:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -361,7 +376,7 @@
     <url>
       <loc>http://localhost:4000/assets/css/style.css</loc>
       
-        <lastmod>2020-06-22T15:37:03+09:00</lastmod>
+        <lastmod>2020-06-24T00:24:16+09:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -376,7 +391,7 @@
     <url>
       <loc>http://localhost:4000/notes</loc>
       
-        <lastmod>2020-06-22T15:37:03+09:00</lastmod>
+        <lastmod>2020-06-24T00:24:16+09:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -391,7 +406,7 @@
     <url>
       <loc>http://localhost:4000/robots.txt</loc>
       
-        <lastmod>2020-06-22T15:37:03+09:00</lastmod>
+        <lastmod>2020-06-24T00:24:16+09:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -406,7 +421,7 @@
     <url>
       <loc>http://localhost:4000/page-2/</loc>
       
-        <lastmod>2020-06-22T15:37:03+09:00</lastmod>
+        <lastmod>2020-06-24T00:24:16+09:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -421,7 +436,22 @@
     <url>
       <loc>http://localhost:4000/page-3/</loc>
       
-        <lastmod>2020-06-22T15:37:03+09:00</lastmod>
+        <lastmod>2020-06-24T00:24:16+09:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:4000/page-4/</loc>
+      
+        <lastmod>2020-06-24T00:24:16+09:00</lastmod>
       
       
         <changefreq>monthly</changefreq>

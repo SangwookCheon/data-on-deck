@@ -5,9 +5,22 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 22 Jun 2020 15:37:03 +0900</pubDate>
-    <lastBuildDate>Mon, 22 Jun 2020 15:37:03 +0900</lastBuildDate>
+    <pubDate>Wed, 24 Jun 2020 00:24:16 +0900</pubDate>
+    <lastBuildDate>Wed, 24 Jun 2020 00:24:16 +0900</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>Perhaps, Genuineness is No Longer that Simple.</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/snippets/2020-6-23-genuineness-not-simple.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 23 Jun 2020 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/posts/genuineness-not-simple</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/genuineness-not-simple</guid>
+        
+        <category>creatives</category>
+        
+        
+      </item>
     
       <item>
         <title>The Elevator</title>
@@ -287,37 +300,6 @@
         <guid isPermaLink="true">http://localhost:4000/posts/paper-money-and-pennies</guid>
         
         <category>creatives</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Google Search Terms &quot;Fake&quot; vs. &quot;Fact&quot;</title>
-        <description>&lt;h1 id=&quot;special-article&quot;&gt;Special Article!&lt;/h1&gt;
-
-&lt;p&gt;This is a very long drawing, so please click on the link to view this image!&lt;/p&gt;
-
-&lt;p&gt;As much long it is, I am excited to show this to you. It uses Google Trends to see the popularity of two words over time.&lt;/p&gt;
-
-&lt;!--break--&gt;
-
-&lt;p&gt;&lt;img src=&quot;/snippets/2020-6-9-fake-vs-fact-2016-drawing.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Tinker with the data by yourself:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://trends.google.com/trends/explore?date=today%205-y&amp;amp;geo=US&amp;amp;q=fact,fake&quot;&gt;Link to the Comparison of “Fake” and “Fact” trends, in the US.&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;You can easily change the search terms or remove one to suit your needs!&lt;/p&gt;
-
-&lt;p&gt;Thank you for reading this article.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 09 Jun 2020 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/posts/fake-vs-fact-2016</link>
-        <guid isPermaLink="true">http://localhost:4000/posts/fake-vs-fact-2016</guid>
-        
-        <category>creatives</category>
-        
-        <category>data</category>
         
         
       </item>
