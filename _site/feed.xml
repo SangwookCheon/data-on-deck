@@ -5,9 +5,48 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 24 Jun 2020 00:24:16 +0900</pubDate>
-    <lastBuildDate>Wed, 24 Jun 2020 00:24:16 +0900</lastBuildDate>
+    <pubDate>Thu, 25 Jun 2020 12:04:58 +0900</pubDate>
+    <lastBuildDate>Thu, 25 Jun 2020 12:04:58 +0900</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>My Rating</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/snippets/2020-6-25-ratings.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 25 Jun 2020 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/posts/ratings</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/ratings</guid>
+        
+        <category>creatives</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>A Blank Sheet of Paper</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/snippets/2020-6-25-blank-sheet-of-paper.PNG&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 25 Jun 2020 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/posts/blank-sheet-of-paper</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/blank-sheet-of-paper</guid>
+        
+        <category>creatives</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>The Aral Sea</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/snippets/2020-6-24-the-aral-sea.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 24 Jun 2020 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/posts/the-aral-sea</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/the-aral-sea</guid>
+        
+        <category>creatives</category>
+        
+        
+      </item>
     
       <item>
         <title>Perhaps, Genuineness is No Longer that Simple.</title>
@@ -247,59 +286,6 @@
         <guid isPermaLink="true">http://localhost:4000/posts/distractions-in-times-of-covid-19</guid>
         
         <category>reflection</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Mr.Blue Sky covered by Jazz Frustrations</title>
-        <description>&lt;p&gt;A team of four musicians, including me, created a jazz version of Mr.Blue Sky, composed by the legendary Electric Light Orchestra.&lt;/p&gt;
-
-&lt;p&gt;We spent over a month recording ourselves at home and compiling videos! It was so much fun for me to sync the videos on Adobe Premier Pro and add more parts as necessary.&lt;/p&gt;
-
-&lt;p&gt;The project was finished on May 16th, and the video was showcased in our school’s last assembly of the year.&lt;/p&gt;
-
-&lt;p&gt;Please enjoy!&lt;/p&gt;
-
-&lt;!--break--&gt;
-
-&lt;iframe src=&quot;https://drive.google.com/file/d/1N0nwvssBpp4gJwAtQbCKuwrMj7YJtBE1/preview&quot; width=&quot;640&quot; height=&quot;480&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://drive.google.com/file/d/1N0nwvssBpp4gJwAtQbCKuwrMj7YJtBE1/view?usp=sharing&quot;&gt;The link to the video is here&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 15 Jun 2020 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/posts/music-with-friends</link>
-        <guid isPermaLink="true">http://localhost:4000/posts/music-with-friends</guid>
-        
-        <category>creatives</category>
-        
-        <category>music</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Ideal Today and Actual Today</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/snippets/2020-6-15-dream-and-today.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 15 Jun 2020 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/posts/dream-and-today</link>
-        <guid isPermaLink="true">http://localhost:4000/posts/dream-and-today</guid>
-        
-        <category>creatives</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Paper Money and Pennies. And Aliens.</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/snippets/2020-6-9-money-and-pennies.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Tue, 09 Jun 2020 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/posts/paper-money-and-pennies</link>
-        <guid isPermaLink="true">http://localhost:4000/posts/paper-money-and-pennies</guid>
-        
-        <category>creatives</category>
         
         
       </item>
