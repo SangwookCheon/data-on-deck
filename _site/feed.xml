@@ -5,9 +5,22 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 25 Jun 2020 12:04:58 +0900</pubDate>
-    <lastBuildDate>Thu, 25 Jun 2020 12:04:58 +0900</lastBuildDate>
+    <pubDate>Fri, 26 Jun 2020 12:12:26 +0900</pubDate>
+    <lastBuildDate>Fri, 26 Jun 2020 12:12:26 +0900</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>Title - A Little Riddle</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/snippets/2020-6-26-title.JPG&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 26 Jun 2020 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/posts/title</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/title</guid>
+        
+        <category>creatives</category>
+        
+        
+      </item>
     
       <item>
         <title>My Rating</title>
@@ -31,6 +44,70 @@
         <guid isPermaLink="true">http://localhost:4000/posts/blank-sheet-of-paper</guid>
         
         <category>creatives</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Seoul Air Quality - Data Processing</title>
+        <description>&lt;p&gt;I created a Kaggle kernel on how to clean up and prepare a dataset about Seoul’s Air Qualit, which includes daily, monthly, and yearly records of pollutants, as well as businesses that emit pollutants.&lt;/p&gt;
+
+&lt;p&gt;Please check it &lt;a href=&quot;https://www.kaggle.com/sangwookchn/seoul-s-air-quality-data-language-processing&quot;&gt;out with this link&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;In the next article, I will show ways of analyzing the data, mostly graphs at this point.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 25 Jun 2020 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/posts/seoul-air-quality-data</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/seoul-air-quality-data</guid>
+        
+        <category>howto</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>How To Guides I Made Before Starting this Blog (Python, Machine Learning)</title>
+        <description>&lt;p&gt;Before starting this blog, I made some Kaggle kernels related to Python and Machine Learning. Starting from now, I will post How To Guides as articles for better accessibility. Nontheless, check to see if anything is useful to you!&lt;/p&gt;
+
+&lt;h1 id=&quot;keras-library&quot;&gt;Keras Library&lt;/h1&gt;
+&lt;p&gt;This is the number-one tool for efficient machine learning in Python, and it is my favorite.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.kaggle.com/sangwookchn/convolutional-neural-networks-cnn-keras&quot;&gt;Convolutional Neural Networks (CNN) with Keras&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.kaggle.com/sangwookchn/artificial-neural-networks-ann-keras&quot;&gt;Artificial Neural Networks (ANN)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.kaggle.com/sangwookchn/digit-recognizer-keras-ml&quot;&gt;Sample Digit Recognizer using Keras&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;scikit-learn-library&quot;&gt;Scikit Learn Library&lt;/h1&gt;
+&lt;p&gt;This Python library has some similar functionalities to Keras, but it has other useful tools outside the scope of machine learning, such as clustering.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.kaggle.com/sangwookchn/regression-techniques-using-scikit-learn&quot;&gt;Regression Techniques&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.kaggle.com/sangwookchn/classification-techniques-using-scikit-learn&quot;&gt;Classification Techniques&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.kaggle.com/sangwookchn/clustering-techniques-using-scikit-learn&quot;&gt;Clustering Techniques&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.kaggle.com/sangwookchn/association-rule-learning-with-scikit-learn&quot;&gt;Association Rule Learning&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.kaggle.com/sangwookchn/reinforcement-learning-using-scikit-learn&quot;&gt;Reinforcement Learning&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.kaggle.com/sangwookchn/natural-language-processing-nlt-step-by-step&quot;&gt;Natural Language Processing (NLP) Basics&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.kaggle.com/sangwookchn/dimensionality-reduction-techniques-scikit-learn&quot;&gt;Dimensionality Reduction Techniques&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.kaggle.com/sangwookchn/model-selection-and-boosting-scikit-learn&quot;&gt;Model Selection and Boosting&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;pandas-library&quot;&gt;Pandas Library&lt;/h1&gt;
+&lt;p&gt;Pandas is essential for preparing data, which is the most important step for any kind of data science project.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.kaggle.com/sangwookchn/data-preprocessing-techniques-using-pandas&quot;&gt;Fundamental Data Processing Techniques&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;I am sorry that these do not have much friendly explanation. For future articles, I will make sure they are as understandable as possible. The focus of last few years was just learning and learning, and I am excited to help readers along the away from now on!&lt;/p&gt;
+</description>
+        <pubDate>Thu, 25 Jun 2020 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/posts/previous-howtos</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/previous-howtos</guid>
+        
+        <category>howto</category>
         
         
       </item>
@@ -168,124 +245,6 @@
         <category>howto</category>
         
         <category>summary</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Work and Rest during COVID-19 Crisis</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/snippets/2020-6-16-work-rest-covid-19.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Tue, 16 Jun 2020 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/posts/work-rest-covid-19</link>
-        <guid isPermaLink="true">http://localhost:4000/posts/work-rest-covid-19</guid>
-        
-        <category>creatives</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>How Should I Read Research Papers? (No PhD Needed!)</title>
-        <description>&lt;p&gt;A big part of this blog will be reading research papers and sharing what I learned, including a brief summary along with key insights. I believe that reading papers is the surefire way to stay updated on the latest developments and gain valuable knowledge. They have value that goes beyond simply studying textbooks.&lt;/p&gt;
-
-&lt;p&gt;In this current world where I am not allowed to go out, research papers are the best way to keep learning. From data science to biology to artificial intelligence, the catalog of research papers is constantly evolving, and I can’t wait to dive into the exciting field.&lt;/p&gt;
-
-&lt;p&gt;I watched an incredibly &lt;a href=&quot;https://www.youtube.com/watch?v=SHTOI0KtZnU&quot;&gt;helpful video by Siraj Raval&lt;/a&gt;, who is passionate about the field of machine learning, artificial intelligence, and more. I am putting a summary of what he suggested in the video, which I hope will be useful to others as well. All the credit for the following information goes to Siraj’s video, so please check it out.&lt;/p&gt;
-
-&lt;p&gt;Here we go!&lt;/p&gt;
-
-&lt;!--break--&gt;
-
-&lt;p&gt;&lt;strong&gt;Important Note:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Siraj reads anything between 10 to 20 research papers a week! But he doesn’t have any graduate degree, so this is the result of purely getting better over time.&lt;/p&gt;
-
-&lt;p&gt;The Collective University is the Internet. Remember this.&lt;/p&gt;
-
-&lt;h1 id=&quot;what-resources-can-i-use&quot;&gt;What Resources Can I Use?&lt;/h1&gt;
-&lt;p&gt;Siraj finds the &lt;a href=&quot;https://www.reddit.com/r/MachineLearning/&quot;&gt;Machine Learning SubReddit &lt;/a&gt;most useful when it comes to discovering relevant and refreshing research papers.&lt;/p&gt;
-
-&lt;p&gt;Also, he often uses &lt;a href=&quot;http://www.arxiv-sanity.com/&quot;&gt;ArXiv Sanity&lt;/a&gt;, which is a more user-friendly version of the traditional &lt;a href=&quot;https://arxiv.org/&quot;&gt;ArXiv.org&lt;/a&gt; made by the Cornell University. Both of these contain millions of advanced papers, so they should be used in conjunction. I can filter the results based on what interests me.&lt;/p&gt;
-
-&lt;p&gt;Another website is a blog made by an Australian machine learning engineer, who puts blog posts that are very descriptive and hands-on. It’s called &lt;a href=&quot;https://machinelearningmastery.com/how-to-research-a-machine-learning-algorithm/&quot;&gt;Machine Learning Mastery&lt;/a&gt;, and this website is my favourite. The good thing about this is that he emphasizes practicality over complicatedness, so if you follow his article, you will easily be able to make an implementation yourself. Research papers can sometimes be daunting or difficult to try out by yourself. He also sells amazing books that teaches you with easy explanations (I have them and they are outstanding), but most of the content can be found within the blog. I recommend using this website to gain confidence in machine learning (which I need) by learning the concepts fast and building your own models to solidify knowledge. Once the foundation is set, it would be much easier to read more advanced research papers.&lt;/p&gt;
-
-&lt;p&gt;DIY is also important!&lt;/p&gt;
-
-&lt;h1 id=&quot;how-do-i-choose-what-research-papers-to-read&quot;&gt;How do I choose what Research Papers to Read?&lt;/h1&gt;
-&lt;p&gt;Set a small goal each week - what do I want to learn more about?  Is it activation models? Hyper-parameter tuning? Siraj can go through difficult papers much better if he has a motivation and a real reason to dive into it.&lt;/p&gt;
-
-&lt;h1 id=&quot;how-do-i-actually-read-the-paper-is-there-a-specific-method&quot;&gt;How do I “Actually” Read the Paper? Is There a Specific Method?&lt;/h1&gt;
-
-&lt;p&gt;Yes! Siraj calls it the &lt;em&gt;3-pass Method&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;First Step:&lt;/strong&gt; Just skim through the paper. Read the title and see if it is interesting. Read the abstract. If it is still intriguing, the skim through the entire paper. Read headings and subheadings, but ignore the math entirely. Read the conclusion as well as references, to see if there are any research papers that you already read. Only attempt to get a overarching view on what the paper intends to do.&lt;/p&gt;
-
-&lt;p&gt;It is important to see if the paper is “worth your time.” You can even look at Reddit to see the initial reactions of people who already read it.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Second Step:&lt;/strong&gt; Re-Read, more critically, taking notes as well (summary!). Read all the English text, and get a high-level understanding of the math. If you cannot understand anything, it might be a sign that you need a little bit more foundation. But never give up! There must be some articles online made by some other people that explain the concepts more easily.&lt;/p&gt;
-
-&lt;p&gt;Very Important: When I read about the experiment, consider if the results are repeatable, backed up with good evidence. Hopefully, there is some relevant code along with the paper that I can use by myself, most likely available on GitHub. Read the code and try to run the code locally to replicate the results.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Third Step:&lt;/strong&gt; Siraj has a Jupyter Notebook full of notes and images that help explain concepts. He says that teaching is the best way to retain information, which I agree, so I will write blog posts about every research paper I read! I hope you will do the same.&lt;/p&gt;
-
-&lt;p&gt;The third step is all about breaking down the math further. Understand every part of the math, using Wikipedia to understand any ambiguous concepts. If Siraj is “really ambitious,” he also tries to “replicate the paper programmatically, using hyper parameters settings and equations that it describes,” but I honestly do not understand what he means.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;But I hope the major points are laid out nicely in this article. Thank you for tuning in, and I will come back with an interesting research article soon.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 16 Jun 2020 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/posts/how-to-read-research-papers</link>
-        <guid isPermaLink="true">http://localhost:4000/posts/how-to-read-research-papers</guid>
-        
-        <category>howto</category>
-        
-        <category>summary</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Distractions in times of a Global Crisis</title>
-        <description>&lt;p&gt;A few months ago, I noticed that the New York Times changed a lot after the birth of COVID-19. Every day, it shared films that we can binge-watch at home, along with new recipes, books, and even video games. This “At Home” section stayed on the front page along with the regular serious articles.&lt;/p&gt;
-
-&lt;p&gt;It was strange to me how a newspaper emphasizes that “not losing your mind” is important, telling me that distractions are necessary right now. It surely felt human, but I did not buy that idea. I would rather “enrich my mind” by using the hours at home to do something meaningful. My school switched entirely to online learning until the end of this school year, and I was sure that there would be myriad ways to diversify my indoor life.&lt;/p&gt;
-
-&lt;!--break--&gt;
-
-&lt;p&gt;However, my goal to create meaning resulted in sitting in front of my computer all day long. Making music with my friends required a keyboard, GarageBand, and Adobe Premiere Pro. Working on Data Science projects meant researching online and crunching data with Atom. Running outside with a mask was the only outdoor activity.&lt;/p&gt;
-
-&lt;p&gt;Zero commute time gave me great flexibility in my schedule. It was not long ago when I minimized such “unproductive” time, listening to Ted Talks on the way to school and flipping over Hanzi Flashcards while returning. But I realized now that physically being in different settings has always ventilated my mind so that it can be filled with refreshing new tasks. Instead of enjoying the maximum productivity that I hoped for, I started looking into the recommendations by the New York Times.&lt;/p&gt;
-
-&lt;p&gt;I fulfilled the need to unwind here and there—ventilating my mind—with screen time again. Youtube, Netflix, iPad games, and more. They were like energy-boost drinks that have an immediate effect, and I didn’t need to move an inch to enjoy them. My desk had all I need.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../post-images/2020-6-16-distractions-covid-19.png&quot; alt=&quot;&quot; /&gt;
-&lt;em&gt;My workspace&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Only if these energy drinks were not addictive…&lt;/p&gt;
-
-&lt;p&gt;I quickly lost the sense of distinction between energy-boosts and productive work. Walking and working were two very different things before the virus, but everything now was under the broad category of “screen time.” After hours pass in any given day, it became too common for me to summarise what I have achieved. When I went through History in Google Chrome a week ago, the redness of Youtube and Netflix dominated the website list. The elegance of the New York Times logo and WaitButWhy faded. I even lost a sense of time.&lt;/p&gt;
-
-&lt;p&gt;I tried to justify my relationship with distractions every day. I am in the middle of a serious global pandemic, and as the New York Times said, let’s just not “lose my mind.” What else can I do? What else &lt;em&gt;should&lt;/em&gt; I do?&lt;/p&gt;
-
-&lt;p&gt;The dissatisfaction with myself grew daily as I tried to enlighten the day with an endless array of momentary entertainment. Distractions seemed to be almost paralyzing me, removing any space for my mind to wander. Does “not losing my mind” mean constantly distracting it? This feels wrong. Hell.&lt;/p&gt;
-
-&lt;p&gt;Thankfully, the New York Times woke me up. On its front page one day, I discovered &lt;a href=&quot;https://www.nytimes.com/2020/06/12/opinion/sunday/black-america-racism-refugee.html?action=click&amp;amp;module=Opinion&amp;amp;pgtype=Homepage&quot;&gt;a powerful and moving article.&lt;/a&gt; It was a personal reflection by Tiffanie Drayton, who fled the US due to unstoppable racism and the danger that black citizens face in the country. A mixture of emotions hit me as I visualized the heart-wrenching descriptions of protests and the ongoing attacks against black Americans.&lt;/p&gt;
-
-&lt;p&gt;Just as racism was “too much” for her to bear, the shame I felt about myself overwhelmed me. I did not know anything about George Floyd nor the reasons why people are out on the streets. I did not know how the “Black Lives Matter” movement sprung up. I had to google everything up because the author simply did not need to define these current events, knowing that it is already in the minds of millions. While these people were heroically calling for change, I was stuck in my room disconnected from the world, only plugged into irrelevant distractions.&lt;/p&gt;
-
-&lt;p&gt;A few months ago, I was like a newsboy. I closely followed the upcoming US Election, and I watched every single Democratic Debate from start to finish. I marveled at the endorsement of two candidates by the New York Times. I also watched Joe Biden going up and down, finally securing his place. The more I stayed away from current news, the more I became indifferent to the world.&lt;/p&gt;
-
-&lt;p&gt;Unwinding has become more important than ever during this stressful global crisis, but I believe that it should not numb our attention to the outside world. For a data science journalist, current events are sources of inspiration. Too often, distractions also interfere with the momentum of our goals and daily tasks. Writing is a stellar example because it requires us to spend time with sustained and focused effort, which can easily become daunting once distractions take over our minds. The need to think deeply becomes tedious, urging us to visit Youtube for short-and-sweet entertainment.&lt;/p&gt;
-
-&lt;p&gt;The more I am distracted, the less I am myself. Distractions are important to unload stress, but I indeed went too far.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 16 Jun 2020 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/posts/distractions-in-times-of-covid-19</link>
-        <guid isPermaLink="true">http://localhost:4000/posts/distractions-in-times-of-covid-19</guid>
-        
-        <category>reflection</category>
         
         
       </item>
