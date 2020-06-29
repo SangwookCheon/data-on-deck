@@ -5,8 +5,8 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 27 Jun 2020 17:40:20 +0900</pubDate>
-    <lastBuildDate>Sat, 27 Jun 2020 17:40:20 +0900</lastBuildDate>
+    <pubDate>Mon, 29 Jun 2020 22:33:44 +0900</pubDate>
+    <lastBuildDate>Mon, 29 Jun 2020 22:33:44 +0900</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
     
       <item>
@@ -23,13 +23,89 @@
       </item>
     
       <item>
-        <title>ImageNet and the Introduction of Convolutional Neural Networks (CNN)</title>
+        <title>ImageNet and the Development of Convolutional Neural Networks (CNN)</title>
         <description>&lt;p&gt;&lt;em&gt;Research Paper Summarized:&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf&quot;&gt;ImageNet Classification with Deep Convolutional
 Neural Networks&lt;/a&gt; written by Alex Krizhevsky, Ilya Sutskever, and Geoffrey E. Hinton.&lt;/p&gt;
 
 &lt;hr /&gt;
+
+&lt;p&gt;Today, we take near-perfect image recognition for granted. There are massive pre-trained models that keep on rolling based on new images added day by day. But where did it start?&lt;/p&gt;
+
+&lt;p&gt;Not long after scientists tackled the monumental challenge of identifying dogs and cats, using traditional fully-connected neural networks, researchers from the University of Toronto worked on a revolutionary model: Convolutional Neural Networks, or CNN for short. Many say that this was the turning point for deep learning.&lt;/p&gt;
+
+&lt;p&gt;The idea of convolutions was around for many decades, but this team enlivened the concept and showcased it to the public.&lt;/p&gt;
+
+&lt;!--break--&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf&quot;&gt;research paper&lt;/a&gt;they published caught two rabbits at the same time. First, they described the structure of CNN. Second, they broke the record in the ImageNet Large-Scale Visual Recognition Challenge (LSVRC).&lt;/p&gt;
+
+&lt;p&gt;The ImageNet provided over 15 million real-life images of objects or animals, all labelled manually by humans. A picture of an umbrella would be labelled “umbrella.” There are more than 22,000 categories, and the challenge is to develop a model that can classify all images. When the model outputs one most-probably category, Top-1 error rate is calculated to quantify its accuracy. ImageNet also wants Top-5 error rate, which looks if any of the five best guesses from the model is correct.&lt;/p&gt;
+
+&lt;h1 id=&quot;the-structure-of-cnn&quot;&gt;The Structure of CNN&lt;/h1&gt;
+&lt;p&gt;After many trials and tweaks, the team showed the architecture of CNN that worked best.&lt;/p&gt;
+
+&lt;h2 id=&quot;relu-activation-function&quot;&gt;ReLU Activation Function&lt;/h2&gt;
+&lt;p&gt;For many years, sigmoid or hyperbolic tangent (tanh) functions were popular choices when ‘activating’ the outputs of neurons. This team, however, decided to use a new method called Rectified Linear Units, or ReLUs. The previous functions cause the outputs to become saturated towards 0 or 1 if they are very large or small. These saturated values cause their gradients to be close to zero, which slows down learning. Learning of the model is called “gradient descent,” and when gradients are small, the model is updated by an insignificant amount.&lt;/p&gt;
+
+&lt;p&gt;ReLU solves this problem because is does not saturate. As the output reaches infinity, the activated value reaches infinity. ReLU is given by a surprisingly simple formula: max(0, x).&lt;/p&gt;
+
+&lt;p&gt;When outputs are less than zero, the neocons do not contribute to learning. When they are positive, gradients are calculated accordingly.&lt;/p&gt;
+
+&lt;p&gt;The team emphasised that ReLU is the biggest contributor to better results. Thus, it is not surprising that ReLU and its slight variations (leaky ReLU) have gained popularity.&lt;/p&gt;
+
+&lt;h2 id=&quot;pooling&quot;&gt;Pooling&lt;/h2&gt;
+&lt;p&gt;The team also used “overlapping pooling.” Pooling is all about reducing the size of images, or downsampling, which allows distinct features to stand out more and reduces computational cost. When pooling, a box of certain size goes through the image like wiping a window. If max pooling is chosen, then the largest pixel value in each box gets to represent that whole box, simultaneously downsampling the image. The team found that using overlapping boxes—with the shape of a rectangle—reduces overfitting. Using a square-shaped pooling layer will result in non-overlapping pooling.&lt;/p&gt;
+
+&lt;p&gt;Here is the outline of the structure:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Images as Input (224 • 224 • 3)
+    &lt;ol&gt;
+      &lt;li&gt;Max Pooling Layer&lt;/li&gt;
+      &lt;li&gt;Max Pooling Layer&lt;/li&gt;
+      &lt;li&gt;Convolutional Layer&lt;/li&gt;
+      &lt;li&gt;Convolutional Layer&lt;/li&gt;
+      &lt;li&gt;Max Pooling Layer&lt;/li&gt;
+      &lt;li&gt;Dense Layer&lt;/li&gt;
+      &lt;li&gt;Dense Layer&lt;/li&gt;
+      &lt;li&gt;Softmax and Output (as probability for each of the 1000 categories chosen).&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;ReLU activation function is applied to every layer.&lt;/p&gt;
+
+&lt;p&gt;The first five layers break images down into smaller features. The details of the size of each convolution are omitted.&lt;/p&gt;
+
+&lt;p&gt;The last three layers are fully-connected (called Dense layers), meaning that the connected neurons directly contribute weights that determine the probabilities at the end. The previous layers analyse and simplify (or downsample) the images, and these layers &lt;em&gt;determine&lt;/em&gt; what they are. The final layer distributes the probability of value 1 to 1000 categories, using the Softmax technique.&lt;/p&gt;
+
+&lt;h1 id=&quot;reducing-overfitting&quot;&gt;Reducing Overfitting&lt;/h1&gt;
+&lt;p&gt;Overfitting is what everyone fears. The weights of the model can become so specifically tailored towards the training set that it cannot ‘generalize’ for the test set. To give an arbitrary example, the accuracy might reach 99% for train set, but 50% when testing it with images that the model never saw. The researchers saw this problem early, so they used techniques that soon became nuts and bolts of the toolbox.&lt;/p&gt;
+
+&lt;p&gt;The first one is Data Augmentation. Increasing the size of the training set gives more variety for the model. With the images given by ImageNet, researcher thought of ways to add slight variations. Here are some ways to transform an image: translate it, flip it horizontally, rescaling it, and change the intensity of RGB values.&lt;/p&gt;
+
+&lt;p&gt;The second one is Dropout: switching off neurons with a set probability, that is, setting zero as their output. Every feed-forward (showing images to neurons), a random set of neurons do not contribute so that a brand-new model updates the weights every time. This dynamics prevents neurons from forming gridlocked relationships.&lt;/p&gt;
+
+&lt;h1 id=&quot;notes-on-variables-that-are-manually-changed&quot;&gt;Notes on Variables that are Manually Changed.&lt;/h1&gt;
+&lt;p&gt;These are called “hyperparameters.” Machine Learning often involves intuition and creativity because tuning these parameters affect the result significantly. They are different from the basic &lt;em&gt;structure&lt;/em&gt; of the model—the order of layers, depth, width, dimensions, etc. Scientists manually change the parameters, test the accuracy, and then tweak them again until they are confident about their choice.&lt;/p&gt;
+
+&lt;p&gt;Hyperparameters include learning rate, optimiser, number of epochs (iterations), dropout probability, etc. The more complex the model is, the more parameters scientists have to juggle. I once wished machine learning never involves ‘guess and check,’ but this is the reality. Professionals often tell us that experience strengthens their intuition.&lt;/p&gt;
+
+&lt;p&gt;There are some systematic ways of trying different ‘sets’ of hyper parameters, like random forest, but this is outside the scope of this paper.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;With two GPUs, it took researchers five to six days to train the model. Thankfully, the speed of GPUs developed rapidly like microchips. Kaggle—a popular data science platform— provides free online GPU that allows large models to be trained.&lt;/p&gt;
+
+&lt;p&gt;Also, the job of creating a CNN became so much simpler. Keras is a stellar python library that allows people to focus on building, not on the technical details and subtle math.&lt;/p&gt;
+
+&lt;p&gt;I took the first step of reading research papers by starting at the exact point where deep learning took off. It will take some time to catch up with the pace of research, but I am sure I will get there soon.&lt;/p&gt;
+
+&lt;p&gt;The biggest challenge is grasping the ambiguous technical terms, such as “stationarity of statistics” and “locality of pixel dependencies.” I found that online helper-tools like Stack Exchange are the best because a lot of people had the same issue. I felt comforted taking a glimpse at the journey of fellow practitioners. It can be rocky sometimes (as it is now), but I should have faith that I can help someone very soon. Machine Learning community is vibrant and supportive, so rather than looking up the dictionary, let’s read people’s words.&lt;/p&gt;
+
+&lt;p&gt;After all these years looking at textbooks and articles to learn machine learning, I am ready to jump into the exciting part: absorbing research papers.&lt;/p&gt;
 </description>
         <pubDate>Sat, 27 Jun 2020 00:00:00 +0900</pubDate>
         <link>http://localhost:4000/posts/imagenet-convolutional-neural-network</link>
